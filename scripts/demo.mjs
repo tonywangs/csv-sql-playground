@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';import {ingest,output} from '../web/core.mjs';
+const doc=await ingest(await fs.readFile('data/countries.geojson'),'countries.geojson');const selected=new Set(doc.source.features.flatMap((f,i)=>f.properties.CONTINENT==='Europe'&&!doc.issues[i]?[i]:[]));
+const out=await output(doc,selected,'CONTINENT = Europe (exact property match)');await fs.writeFile('results/europe.geojson',out.geojson);await fs.writeFile('results/europe.manifest.json',JSON.stringify(out.manifest,null,2)+'\n');console.log('Demo:',selected.size,'selected;',doc.issues.filter(Boolean).length,'unsupported');
