@@ -1,0 +1,5 @@
+Source: https://ourairports.com/data/
+Retrieved through web search on 2026-10-19; the direct site returned HTTP 500.
+License statement in the indexed primary-source page:
+“All data is released to the Public Domain, and comes with no guarantee of accuracy or fitness for use.”
+CSV revision and byte hashes are recorded in provenance.json.

@@ -1,0 +1,1 @@
+{"name":"sqlite-query-desk","version":"1.0.0","private":true,"description":"Browser verification tooling; runtime uses Python standard library only","scripts":{"test:browser":"node tests/browser.cjs","test":"python3 -m unittest discover -s tests -v","verify:demo":"python3 scripts/verify_demo.py"},"devDependencies":{"playwright":"1.56.1"}}

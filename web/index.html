@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SQLite Query Desk</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><div><span class="eyebrow">LOCAL DATA · EXPLICIT LIMITS</span><h1>SQLite Query Desk</h1></div><span class="badge">Read-only snapshots</span></header>
+<main>
+<aside>
+<section><h2>1. Connect a snapshot</h2><button id="demo" class="primary">Open real-data demo</button><p class="muted">249 countries · 3,987 regions<br>OurAirports · Public Domain</p><a href="/demo/provenance.json" target="_blank">Dataset provenance ↗</a>
+<hr><label class="check"><input id="stable" type="checkbox"> This is a closed standalone snapshot with no WAL, SHM or journal companions.</label><label class="file">Import SQLite (up to 8 MiB)<input id="database" type="file" multiple></label>
+<p id="connection" class="muted">No database connected.</p><p id="source" class="hash"></p></section>
+<section><h2>Tables</h2><div id="schema" class="muted">Connect to inspect columns and browse tables.</div></section>
+<section><h2>Saved analyses</h2><select id="saved" aria-label="Saved analyses"></select><div class="row"><button id="new">New</button><button id="delete">Delete</button></div><button id="projectExport">Export project JSON</button><label class="file">Import project JSON<input id="projectImport" type="file" accept=".json"></label><p class="muted">Edits recover locally. Project files save queries and settings; reconnect and rerun to obtain results.</p></section>
+</aside>
+<article>
+<section><div class="row spread"><h2>2. Write an analysis</h2><span id="recovery" class="muted">Autosaved in this browser</span></div><label>Analysis name<input id="name" maxlength="120"></label><label>SQL <span class="muted">One read-only statement</span><textarea id="sql" spellcheck="false" rows="9"></textarea></label>
+<details open><summary>Typed parameters</summary><p class="muted">Use :name in SQL. Types: text, integer, real, null, blob. Integers and reals use strings; BLOBs use base64.</p><label class="sr-only" for="parameters">Parameters JSON</label><textarea id="parameters" spellcheck="false" rows="4"></textarea></details>
+<div class="limits"><label>Maximum rows<input id="rows" type="number" min="1" max="10000"></label><label>Result bytes<input id="bytes" type="number" min="1" max="4194304"></label><label>Seconds<input id="seconds" type="number" min="1" max="10"></label></div>
+<div class="row"><button id="run" class="primary" disabled>Run query</button><button id="cancel" disabled>Cancel</button><span class="muted">⌘ / Ctrl + Enter</span></div></section>
+<section><div class="row spread"><h2>3. Inspect & export</h2><button id="export" disabled>Export CSV + typed JSON + manifest</button></div><p id="message" role="status" aria-live="polite">Open the demo or import a snapshot to begin.</p><label class="check" id="partialLabel" hidden><input type="checkbox" id="partial"> I understand these results are incomplete and may not answer the full query.</label><p id="resultMeta" class="muted"></p><div id="results" class="table-wrap"><div class="empty">Your results will appear here.<br><span>Try a country join or a continental summary.</span></div></div><p class="muted">NULL is shown explicitly. Cells retain types; duplicate columns keep their positions. CSV loses types. Import formula-like text as text in spreadsheet tools.</p></section>
+</article>
+</main><footer>Runs on your machine. Snapshot bytes stay unchanged. Order is guaranteed only with ORDER BY. <span id="version"></span></footer>
+</body></html>
