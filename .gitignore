@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+!results/tests.log
+node_modules/
+.local/
