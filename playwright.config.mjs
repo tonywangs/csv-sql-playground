@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/browser',workers:1,use:{headless:true,launchOptions:{executablePath:process.env.CHROME_PATH,args:['--no-sandbox'],env:{...process.env,XDG_CONFIG_HOME:'/tmp/geo-chrome-config',XDG_CACHE_HOME:'/tmp/geo-chrome-cache'}}},webServer:{command:'./launch.sh',url:'http://127.0.0.1:8876/web/',reuseExistingServer:false}});
