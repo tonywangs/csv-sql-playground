@@ -1,0 +1,89 @@
+{
+  "configuration": {
+    "validator": "Ajv 8.17.1",
+    "dialect": "http://json-schema.org/draft-07/schema#",
+    "formats": "annotation only",
+    "allErrors": true,
+    "coerceTypes": false,
+    "useDefaults": false,
+    "removeAdditional": false,
+    "maxBytes": 1048576,
+    "maxResources": 16,
+    "maxDepth": 80,
+    "timeoutMs": 5000,
+    "maxFindings": 5000
+  },
+  "coverage": "complete",
+  "status": "invalid-document",
+  "findings": [
+    {
+      "id": "0",
+      "documentPointer": "/width",
+      "schemaResource": "vega-schema.json",
+      "schemaHash": "173a2d512cf0d8bc841bc90ce574f0526f710e4762820e6ca68bf86e35595920",
+      "schemaPointer": "/definitions/numberOrSignal/oneOf/0/type",
+      "keyword": "type",
+      "message": "must be number",
+      "params": {
+        "type": "number"
+      },
+      "value": "deliberately invalid",
+      "rule": "number",
+      "context": "#/oneOf/0/type"
+    },
+    {
+      "id": "1",
+      "documentPointer": "/width",
+      "schemaResource": "vega-schema.json",
+      "schemaHash": "173a2d512cf0d8bc841bc90ce574f0526f710e4762820e6ca68bf86e35595920",
+      "schemaPointer": "/definitions/signalRef/type",
+      "keyword": "type",
+      "message": "must be object",
+      "params": {
+        "type": "object"
+      },
+      "value": "deliberately invalid",
+      "rule": "object",
+      "context": "#/type"
+    },
+    {
+      "id": "2",
+      "documentPointer": "/width",
+      "schemaResource": "vega-schema.json",
+      "schemaHash": "173a2d512cf0d8bc841bc90ce574f0526f710e4762820e6ca68bf86e35595920",
+      "schemaPointer": "/definitions/numberOrSignal/oneOf",
+      "keyword": "oneOf",
+      "message": "must match exactly one schema in oneOf",
+      "params": {
+        "passingSchemas": null
+      },
+      "value": "deliberately invalid",
+      "rule": [
+        {
+          "type": "number"
+        },
+        {
+          "$ref": "#/definitions/signalRef"
+        }
+      ],
+      "context": "#/oneOf"
+    }
+  ],
+  "document": {
+    "name": "CONTROL-invalid-bar.json",
+    "hash": "229f49b3499027d12ec0e9083aab81b4498fcdc0eb84d1ea0c6da410d5eddde3"
+  },
+  "resources": [
+    {
+      "name": "vega-schema.json",
+      "hash": "173a2d512cf0d8bc841bc90ce574f0526f710e4762820e6ca68bf86e35595920"
+    }
+  ],
+  "annotations": {
+    "0": "Reviewed: deliberate control <script>window.pwned=1</script>"
+  },
+  "settings": {
+    "filter": "width"
+  },
+  "createdAt": "2026-10-19T22:30:50.892Z"
+}
