@@ -1,0 +1,2 @@
+# Preserve upstream bytes so provenance hashes survive cross-platform checkouts.
+data/population/*.csv -text whitespace=cr-at-eol
