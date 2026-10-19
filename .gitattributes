@@ -1,0 +1,3 @@
+# Source/output hashes refer to exact bytes, including CSV CRLF line endings.
+*.csv -text whitespace=cr-at-eol
+*.png binary
