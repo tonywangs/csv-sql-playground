@@ -1,0 +1,1 @@
+{"name":"csv-pivot-desk","private":true,"version":"1.0.0","scripts":{"test:browser":"node tests/browser.cjs"},"devDependencies":{"playwright":"1.61.1"}}
