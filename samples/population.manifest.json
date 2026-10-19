@@ -1,0 +1,116 @@
+{
+  "format": "chart-point-desk-manifest/v1",
+  "approximate": true,
+  "warning": "Digitized estimates, not original measurements. Pixel-placement sensitivity is not statistical uncertainty.",
+  "image": {
+    "name": "population.png",
+    "sha256": "75c8c961d41e3fd80da25d783fb04d1eab1e6728f5dc6aeb7e55baa69fb3b542",
+    "width": 850,
+    "height": 600
+  },
+  "coordinateSystem": "Source image pixels; origin top-left; x rightward; y downward; no image transformation.",
+  "calibration": {
+    "x": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 164,
+          "value": 1960
+        },
+        {
+          "pixel": 643,
+          "value": 2010
+        }
+      ]
+    },
+    "y": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 512,
+          "value": 0
+        },
+        {
+          "pixel": 79,
+          "value": 8000000000
+        }
+      ]
+    }
+  },
+  "transformations": {
+    "x": {
+      "scale": "linear",
+      "slope": 0.10438413361169102,
+      "intercept": 1942.8810020876826,
+      "formula": "value = slope * pixel + intercept"
+    },
+    "y": {
+      "scale": "linear",
+      "slope": -18475750.577367205,
+      "intercept": 9459584295.61201,
+      "formula": "value = slope * pixel + intercept"
+    }
+  },
+  "series": [
+    {
+      "id": "series-1",
+      "name": "World"
+    }
+  ],
+  "points": [
+    {
+      "id": "827db42a-727a-4509-885e-dc22531fd243",
+      "series": "series-1",
+      "px": 164,
+      "py": 348,
+      "x": 1960,
+      "y": 3030023094.688222
+    },
+    {
+      "id": "0e2e2f84-d2ee-4cac-b9a6-25fe54740ad2",
+      "series": "series-1",
+      "px": 356,
+      "py": 269,
+      "x": 1980.0417536534446,
+      "y": 4489607390.300231
+    },
+    {
+      "id": "383573d3-901c-47e8-b8f3-35165e2ed8bd",
+      "series": "series-1",
+      "px": 547,
+      "py": 179,
+      "x": 1999.9791231732777,
+      "y": 6152424942.263279
+    },
+    {
+      "id": "3afea5ff-f31a-45d4-8173-f634dd84c09d",
+      "series": "series-1",
+      "px": 739,
+      "py": 88,
+      "x": 2020.0208768267223,
+      "y": 7833718244.803695
+    },
+    {
+      "id": "49e8e6e7-f9d6-4c10-8400-5bcb6b1a29eb",
+      "series": "series-1",
+      "px": 768,
+      "py": 74,
+      "x": 2023.0480167014614,
+      "y": 8092378752.886836
+    }
+  ],
+  "outputs": {
+    "points.csv": {
+      "sha256": "8956a6ddc397d4abdbb58ac6c5d95f47919904b022b17e9fb5e139a4bfd3752c"
+    },
+    "project.json": {
+      "sha256": "3dffb7fc85952b2f7119734b99b5e4ab36ecef86646125b1bf84592ebf0316fd"
+    }
+  },
+  "csv": {
+    "encoding": "UTF-8",
+    "lineEnding": "CRLF",
+    "order": "Insertion order; order column is one-based within each series",
+    "labels": "Exact labels; spreadsheet users must import text columns as text to avoid formula interpretation."
+  }
+}

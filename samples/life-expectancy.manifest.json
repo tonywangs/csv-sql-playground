@@ -1,0 +1,116 @@
+{
+  "format": "chart-point-desk-manifest/v1",
+  "approximate": true,
+  "warning": "Digitized estimates, not original measurements. Pixel-placement sensitivity is not statistical uncertainty.",
+  "image": {
+    "name": "life-expectancy.png",
+    "sha256": "41b9d83aa315dd55ffa2479c8f22b0f657d7b4fd8daa0c79485e9dbfca9cb33d",
+    "width": 850,
+    "height": 600
+  },
+  "coordinateSystem": "Source image pixels; origin top-left; x rightward; y downward; no image transformation.",
+  "calibration": {
+    "x": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 167,
+          "value": 1960
+        },
+        {
+          "pixel": 644,
+          "value": 2010
+        }
+      ]
+    },
+    "y": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 532,
+          "value": 0
+        },
+        {
+          "pixel": 110,
+          "value": 80
+        }
+      ]
+    }
+  },
+  "transformations": {
+    "x": {
+      "scale": "linear",
+      "slope": 0.10482180293501048,
+      "intercept": 1942.4947589098533,
+      "formula": "value = slope * pixel + intercept"
+    },
+    "y": {
+      "scale": "linear",
+      "slope": -0.1895734597156398,
+      "intercept": 100.85308056872037,
+      "formula": "value = slope * pixel + intercept"
+    }
+  },
+  "series": [
+    {
+      "id": "series-1",
+      "name": "World"
+    }
+  ],
+  "points": [
+    {
+      "id": "dea2a229-8b70-4b36-8ca7-03e1e92491d2",
+      "series": "series-1",
+      "px": 167,
+      "py": 280,
+      "x": 1960,
+      "y": 47.77251184834123
+    },
+    {
+      "id": "1cb59f95-e37e-4c0a-a968-40aa839ac491",
+      "series": "series-1",
+      "px": 358,
+      "py": 215,
+      "x": 1980.020964360587,
+      "y": 60.094786729857816
+    },
+    {
+      "id": "dfa069b3-c491-43c4-bf08-14638587ec9e",
+      "series": "series-1",
+      "px": 548,
+      "py": 185,
+      "x": 1999.9371069182391,
+      "y": 65.781990521327
+    },
+    {
+      "id": "4da20797-fa32-483d-a465-034f6b422ca1",
+      "series": "series-1",
+      "px": 739,
+      "py": 152,
+      "x": 2019.958071278826,
+      "y": 72.03791469194312
+    },
+    {
+      "id": "b3da103e-51d5-4340-9956-917e70b74d88",
+      "series": "series-1",
+      "px": 768,
+      "py": 146,
+      "x": 2022.9979035639415,
+      "y": 73.17535545023696
+    }
+  ],
+  "outputs": {
+    "points.csv": {
+      "sha256": "156e909d3b1c44cd69b2d7463718a73805537a08f171ac7f1647490d0e2db6de"
+    },
+    "project.json": {
+      "sha256": "80a1ff1a963ff4158ed08cdd89c40493e0a0d13833a3b226a89b10b0d1726c32"
+    }
+  },
+  "csv": {
+    "encoding": "UTF-8",
+    "lineEnding": "CRLF",
+    "order": "Insertion order; order column is one-based within each series",
+    "labels": "Exact labels; spreadsheet users must import text columns as text to avoid formula interpretation."
+  }
+}

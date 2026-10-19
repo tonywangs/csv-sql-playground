@@ -1,0 +1,101 @@
+{
+  "retrieved_utc": "2026-10-19T20:47:24.209186+00:00",
+  "charts": [
+    {
+      "id": "population",
+      "page": "https://ourworldindata.org/grapher/population?tab=chart&country=~OWID_WRL&time=1950..2023",
+      "title": "Population",
+      "entity": "World",
+      "years": [
+        1950,
+        2023
+      ],
+      "revision": {
+        "id": 953903,
+        "updatedAt": "2026-09-10T00:36:53.000Z",
+        "datasetVersion": "2024-07-15",
+        "dataChecksum": "13220771330655673456",
+        "metadataChecksum": "-7627876395991582410"
+      },
+      "chart_license": "CC BY 4.0",
+      "chart_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "data_license": "CC BY 3.0 IGO (UN WPP 2024, the World 1950\u20132023 subset only)",
+      "data_license_evidence": "population.indicator.json: origins[].license for United Nations",
+      "attribution": "Our World in Data; United Nations, Department of Economic and Social Affairs, Population Division (2024). World Population Prospects 2024, Online Edition.",
+      "processing": "Original downloaded SVG and CSV bytes unchanged. PNG rasterization documented in rasterization.json. No cropping."
+    },
+    {
+      "id": "life-expectancy",
+      "page": "https://ourworldindata.org/grapher/life-expectancy?tab=chart&country=~OWID_WRL&time=1950..2023",
+      "title": "Life expectancy",
+      "entity": "World",
+      "years": [
+        1950,
+        2023
+      ],
+      "revision": {
+        "id": 1118466,
+        "updatedAt": "2026-09-10T00:56:25.000Z",
+        "datasetVersion": "2025-10-22",
+        "dataChecksum": "7806443731173385857",
+        "metadataChecksum": "-2337615214807602125"
+      },
+      "chart_license": "CC BY 4.0",
+      "chart_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "data_license": "CC BY 3.0 IGO (UN WPP 2024, the World 1950\u20132023 subset only)",
+      "data_license_evidence": "life-expectancy.indicator.json: origins[].license for United Nations",
+      "attribution": "Our World in Data; United Nations, Department of Economic and Social Affairs, Population Division (2024). World Population Prospects 2024, Online Edition.",
+      "processing": "Original downloaded SVG and CSV bytes unchanged. PNG rasterization documented in rasterization.json. No cropping."
+    }
+  ],
+  "files": [
+    {
+      "file": "population.svg",
+      "url": "https://ourworldindata.org/grapher/population.svg?tab=chart&country=~OWID_WRL&time=1950..2023",
+      "sha256": "b754d599d40d3a5ff6263a3401aa20f8fa3750104ff4b3d5ab1c05d0177d92b4",
+      "bytes": 22800
+    },
+    {
+      "file": "population.csv",
+      "url": "https://ourworldindata.org/grapher/population.csv?tab=chart&country=~OWID_WRL&time=1950..2023&csvType=filtered",
+      "sha256": "ca47179fcaae090b0ad75005527dbac49f25db117b6fd54907b575dc6ab224e8",
+      "bytes": 2321
+    },
+    {
+      "file": "population.metadata.json",
+      "url": "https://ourworldindata.org/grapher/population.metadata.json?tab=chart&country=~OWID_WRL&time=1950..2023&csvType=filtered",
+      "sha256": "6a2e04c2d252991268c680dbf22ec45317a855270c93e43f2b6db8024a4c4f3d",
+      "bytes": 4273
+    },
+    {
+      "file": "population.indicator.json",
+      "url": "https://api.ourworldindata.org/v1/indicators/953903.metadata.json",
+      "sha256": "1bdb7d75acc983d436241c4e5b47c8fca5434f4df3f37b28f04e1d4364c17ec8",
+      "bytes": 36727
+    },
+    {
+      "file": "life-expectancy.svg",
+      "url": "https://ourworldindata.org/grapher/life-expectancy.svg?tab=chart&country=~OWID_WRL&time=1950..2023",
+      "sha256": "01a23a406ea9fccb5236cced029bfc27642050ae84182c8445baa981cc6185a9",
+      "bytes": 22843
+    },
+    {
+      "file": "life-expectancy.csv",
+      "url": "https://ourworldindata.org/grapher/life-expectancy.csv?tab=chart&country=~OWID_WRL&time=1950..2023&csvType=filtered",
+      "sha256": "d1da9fe3b89fbe3c41af6577c8bfd4be70936f90bced4510b8b00aee4922f8ac",
+      "bytes": 2095
+    },
+    {
+      "file": "life-expectancy.metadata.json",
+      "url": "https://ourworldindata.org/grapher/life-expectancy.metadata.json?tab=chart&country=~OWID_WRL&time=1950..2023&csvType=filtered",
+      "sha256": "6dd27a572c854dfa1ee0d9026f4940fb4470eb107adc40b742d44e00f0a12f01",
+      "bytes": 4448
+    },
+    {
+      "file": "life-expectancy.indicator.json",
+      "url": "https://api.ourworldindata.org/v1/indicators/1118466.metadata.json",
+      "sha256": "d51aae4450c299e765a26c6a1951bff0531823ff1b30ca199d4d815be1c727b5",
+      "bytes": 46358
+    }
+  ]
+}

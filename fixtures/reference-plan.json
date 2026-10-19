@@ -1,0 +1,133 @@
+{
+  "frozen_utc": "2026-10-19T20:51:11.544895+00:00",
+  "method": "Manual visual reading of rasterized published lines at predefined World years. No y coordinates calculated from reference data or SVG path geometry. Five ordered points per chart; no exclusions, nearest-neighbor rematching, or tolerance adjustment after evaluation.",
+  "years": [
+    1960,
+    1980,
+    2000,
+    2020,
+    2023
+  ],
+  "matching": "One-to-one by chart and insertion order against the listed years; a missing or extra point is a failure.",
+  "tolerance_rationale": "Absolute x tolerance = 2 source pixels times x-axis units/pixel; absolute y tolerance = 3 source pixels times y-axis units/pixel. Budgets allow 1 pixel of anchor reading plus 1 pixel x placement / 2 pixels y line-center placement. These are engineering acceptance thresholds, not confidence intervals. Endpoint extrapolation and line interpolation may add error; failures are retained.",
+  "charts": [
+    {
+      "id": "population",
+      "image_sha256": "75c8c961d41e3fd80da25d783fb04d1eab1e6728f5dc6aeb7e55baa69fb3b542",
+      "csv_sha256": "ca47179fcaae090b0ad75005527dbac49f25db117b6fd54907b575dc6ab224e8",
+      "calibration": {
+        "x": {
+          "scale": "linear",
+          "anchors": [
+            {
+              "pixel": 164,
+              "value": 1960
+            },
+            {
+              "pixel": 643,
+              "value": 2010
+            }
+          ]
+        },
+        "y": {
+          "scale": "linear",
+          "anchors": [
+            {
+              "pixel": 512,
+              "value": 0
+            },
+            {
+              "pixel": 79,
+              "value": 8000000000
+            }
+          ]
+        }
+      },
+      "tolerance": {
+        "x": 0.20876826722338204,
+        "y": 55427251.73210162
+      },
+      "reference": [
+        {
+          "year": 1960,
+          "value": 3015470889.0
+        },
+        {
+          "year": 1980,
+          "value": 4447606240.0
+        },
+        {
+          "year": 2000,
+          "value": 6171702992.0
+        },
+        {
+          "year": 2020,
+          "value": 7887001289.0
+        },
+        {
+          "year": 2023,
+          "value": 8091734933.0
+        }
+      ]
+    },
+    {
+      "id": "life-expectancy",
+      "image_sha256": "41b9d83aa315dd55ffa2479c8f22b0f657d7b4fd8daa0c79485e9dbfca9cb33d",
+      "csv_sha256": "d1da9fe3b89fbe3c41af6577c8bfd4be70936f90bced4510b8b00aee4922f8ac",
+      "calibration": {
+        "x": {
+          "scale": "linear",
+          "anchors": [
+            {
+              "pixel": 167,
+              "value": 1960
+            },
+            {
+              "pixel": 644,
+              "value": 2010
+            }
+          ]
+        },
+        "y": {
+          "scale": "linear",
+          "anchors": [
+            {
+              "pixel": 532,
+              "value": 0
+            },
+            {
+              "pixel": 110,
+              "value": 80
+            }
+          ]
+        }
+      },
+      "tolerance": {
+        "x": 0.20964360587002095,
+        "y": 0.5687203791469194
+      },
+      "reference": [
+        {
+          "year": 1960,
+          "value": 47.8198
+        },
+        {
+          "year": 1980,
+          "value": 60.502
+        },
+        {
+          "year": 2000,
+          "value": 66.4333
+        },
+        {
+          "year": 2020,
+          "value": 71.9166
+        },
+        {
+          "year": 2023,
+          "value": 73.1694
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "method": "Manual visual estimates of the PNG line center, read after reference-plan.json was frozen. These are operator selections, not values projected from source data or extracted from SVG path geometry.",
+  "charts": {
+    "population": [[164,348],[356,269],[547,179],[739,88],[768,74]],
+    "life-expectancy": [[167,280],[358,215],[548,185],[739,152],[768,146]]
+  }
+}

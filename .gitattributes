@@ -1,0 +1,4 @@
+# Preserve acquired source bytes and hashed export bytes across Git checkouts.
+fixtures/owid/* -text
+samples/* -text
+samples/*.csv whitespace=cr-at-eol
