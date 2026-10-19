@@ -1,0 +1,41 @@
+{
+  "format": "sqlite-query-desk.project.v1",
+  "queries": [
+    {
+      "name": "Regions by country",
+      "sql": "SELECT * FROM \"countries\"",
+      "parameters": "{}",
+      "settings": {
+        "rows": 1000,
+        "bytes": 1048576,
+        "seconds": 3
+      }
+    },
+    {
+      "name": "Explore one country",
+      "sql": "SELECT c.name AS country, r.code, r.name AS region\nFROM countries AS c JOIN regions AS r ON r.iso_country = c.code\nWHERE c.code = :country\nORDER BY r.code",
+      "parameters": "{\n  \"country\": {\n    \"type\": \"text\",\n    \"value\": \"CA\"\n  }\n}",
+      "settings": {
+        "rows": 1000,
+        "bytes": 1048576,
+        "seconds": 3
+      }
+    },
+    {
+      "name": "Continental summary",
+      "sql": "SELECT c.continent, COUNT(DISTINCT c.code) AS countries, COUNT(r.code) AS regions\nFROM countries AS c LEFT JOIN regions AS r ON r.iso_country = c.code\nGROUP BY c.continent\nORDER BY c.continent",
+      "parameters": "{}",
+      "settings": {
+        "rows": 1000,
+        "bytes": 1048576,
+        "seconds": 3
+      }
+    }
+  ],
+  "selected": 1,
+  "source": {
+    "name": "OurAirports countries + regions",
+    "sha256": "287ebd2d218a1d0084753593a724a28243d253c1c560f797c8873e47771ba1b8",
+    "bytes": 491520
+  }
+}

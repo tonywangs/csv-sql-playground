@@ -1,0 +1,17 @@
+test_allocation_limit (test_core.CoreTests.test_allocation_limit) ... ok
+test_cancel_and_reconnection (test_core.CoreTests.test_cancel_and_reconnection) ... ok
+test_empty_database (test_core.CoreTests.test_empty_database) ... ok
+test_export_checksums_acknowledgment_and_csv (test_core.CoreTests.test_export_checksums_acknowledgment_and_csv) ... ok
+test_malformed_empty_and_complete (test_core.CoreTests.test_malformed_empty_and_complete) ... ok
+test_parameters (test_core.CoreTests.test_parameters) ... ok
+test_readonly_actions (test_core.CoreTests.test_readonly_actions) ... ok
+test_row_and_byte_truncation (test_core.CoreTests.test_row_and_byte_truncation) ... ok
+test_schema_and_snapshot_validation (test_core.CoreTests.test_schema_and_snapshot_validation) ... ok
+test_snapshot_hash_mismatch (test_core.CoreTests.test_snapshot_hash_mismatch) ... ok
+test_timeout (test_core.CoreTests.test_timeout) ... ok
+test_typed_values_and_duplicate_column_positions (test_core.CoreTests.test_typed_values_and_duplicate_column_positions) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.771s
+
+OK

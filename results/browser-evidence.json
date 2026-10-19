@@ -1,0 +1,87 @@
+{
+  "executed_at": "2026-10-19T23:32:26.931Z",
+  "browser": "141.0.7390.37",
+  "platform": "linux",
+  "checks": [
+    {
+      "name": "real demo import and schema inspection",
+      "passed": true
+    },
+    {
+      "name": "table browsing",
+      "passed": true,
+      "rows": 249
+    },
+    {
+      "name": "SQL editing, typed filter and real join export",
+      "passed": true,
+      "rows": 14,
+      "archive": "browser-real-data.zip"
+    },
+    {
+      "name": "real grouped aggregate",
+      "passed": true,
+      "rows": 7
+    },
+    {
+      "name": "reload recovers selected query, typed parameters and explicit reconnection",
+      "passed": true
+    },
+    {
+      "name": "project transfer, file import and rerun",
+      "passed": true
+    },
+    {
+      "name": "row truncation and partial export acknowledgment",
+      "passed": true,
+      "rows": 2
+    },
+    {
+      "name": "byte truncation",
+      "passed": true
+    },
+    {
+      "name": "successful empty result",
+      "passed": true
+    },
+    {
+      "name": "labeled controls: integer precision, NULL, duplicate columns and BLOB",
+      "passed": true
+    },
+    {
+      "name": "labeled controls: malformed SQL, writes, attachment and pragma rejected",
+      "passed": true
+    },
+    {
+      "name": "user cancellation and locked in-flight editor",
+      "passed": true,
+      "status": "interrupted"
+    },
+    {
+      "name": "execution time limit",
+      "passed": true,
+      "status": "interrupted"
+    },
+    {
+      "name": "changed source identity invalidates results",
+      "passed": true
+    },
+    {
+      "name": "labeled WAL snapshot refused",
+      "passed": true
+    },
+    {
+      "name": "oversized project export refused before producing an unrecoverable backup",
+      "passed": true
+    },
+    {
+      "name": "source bytes unchanged; no page errors or external requests",
+      "passed": true,
+      "sha256": "287ebd2d218a1d0084753593a724a28243d253c1c560f797c8873e47771ba1b8"
+    }
+  ],
+  "source_before": "287ebd2d218a1d0084753593a724a28243d253c1c560f797c8873e47771ba1b8",
+  "source_after": "287ebd2d218a1d0084753593a724a28243d253c1c560f797c8873e47771ba1b8",
+  "page_errors": [],
+  "external_requests": []
+}

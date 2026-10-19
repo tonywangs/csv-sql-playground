@@ -1,0 +1,30 @@
+{
+  "source": "OurAirports",
+  "revision": "b529623d2a0b09a9be78d37fc7a7a5e1e16e3451",
+  "acquired_utc": "2026-10-19",
+  "license": "Public Domain",
+  "license_url": "https://ourairports.com/data/",
+  "license_evidence": "license-evidence.txt",
+  "conversion": "CSV id fields become INTEGER; all other fields remain TEXT, including empty strings. Source order retained. No filtering.",
+  "files": {
+    "countries.csv": {
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/b529623d2a0b09a9be78d37fc7a7a5e1e16e3451/countries.csv",
+      "sha256": "2a9dbee691125b0cdb8ceb5fe227c48c903f99c488963b8e53e2ab366521c639",
+      "bytes": 24583
+    },
+    "regions.csv": {
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/b529623d2a0b09a9be78d37fc7a7a5e1e16e3451/regions.csv",
+      "sha256": "9220d6582b804cfdec8432e5bb21456699c9df8969bf5d8886beb62ff0b1318b",
+      "bytes": 485265
+    },
+    "SOURCE-README.md": {
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/b529623d2a0b09a9be78d37fc7a7a5e1e16e3451/README.md",
+      "sha256": "e8223c5ca7e99c33caf54bd795c4f86d0c4d28adec16a9453b0e1f4fc4b9c6f4",
+      "bytes": 1487
+    }
+  },
+  "rows": {
+    "countries": 249,
+    "regions": 3987
+  }
+}
