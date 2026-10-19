@@ -1,0 +1,1 @@
+{"name":"jsonl-selection-desk-browser-tests","private":true,"scripts":{"test:browser":"node tests/browser.cjs"},"devDependencies":{"playwright":"1.58.2"}}
