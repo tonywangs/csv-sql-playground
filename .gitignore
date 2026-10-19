@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+node_modules/
+*.log
+!results/tests.log
+*.building.sqlite

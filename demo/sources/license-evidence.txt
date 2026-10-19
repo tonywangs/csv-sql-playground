@@ -1,0 +1,8 @@
+Data from OurAirports, https://ourairports.com/ . Not for navigation.
+Primary source: https://ourairports.com/about.html
+Accessed 2026-10-19 via web search cache (direct /data/ request returned HTTP 500).
+The OurAirports overview states its data is in the Public Domain, with no permission required.
+Primary source: https://ourairports.com/data/?trk=public_post_comment-text
+Cached terms of use: "All data is released to the Public Domain, and comes with no guarantee of accuracy or fitness for use."
+The upstream software LICENSE is retained separately, unmodified, at LICENSE.
+Pinned upstream README: https://raw.githubusercontent.com/davidmegginson/ourairports-data/e6e15e5a5b8add6d6b1447ca453a1136103585e4/README.md
