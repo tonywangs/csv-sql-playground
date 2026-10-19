@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-reconcile-desk"
+version = "0.1.0"
+description = "Offline CSV reconciliation with complete row accounting"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "CSV Reconcile Desk contributors"}]
+dependencies = []
+
+[project.scripts]
+csv-reconcile = "csv_reconcile_desk.cli:main"
+
+[tool.setuptools]
+packages = ["csv_reconcile_desk"]
+
+[tool.setuptools.package-data]
+csv_reconcile_desk = ["report.html"]
