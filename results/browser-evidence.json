@@ -1,0 +1,16 @@
+{
+  "browser": "156.0.8078.4",
+  "checks": [
+    "real bar and pie validated",
+    "invalid control inspected",
+    "annotation saved",
+    "reload recovery hash matched",
+    "project import recovered",
+    "changed bytes rejected",
+    "JSON and HTML downloaded",
+    "manual interruption incomplete",
+    "pathological regex deadline incomplete",
+    "offline HTML reopened without network or script execution"
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,39 @@
+{
+  "validator": "python-jsonschema 4.10.3",
+  "dialect": "draft-07",
+  "formats": "annotation only",
+  "results": [
+    {
+      "document": "bar-chart.json",
+      "status": "valid",
+      "independentTopLevelErrors": 0,
+      "ajvFindings": 0,
+      "pointersVerified": true,
+      "leafFailuresAgree": true
+    },
+    {
+      "document": "pie-chart.json",
+      "status": "valid",
+      "independentTopLevelErrors": 0,
+      "ajvFindings": 0,
+      "pointersVerified": true,
+      "leafFailuresAgree": true
+    },
+    {
+      "document": "CONTROL-invalid-bar.json",
+      "status": "invalid-document",
+      "independentTopLevelErrors": 1,
+      "ajvFindings": 3,
+      "pointersVerified": true,
+      "leafFailuresAgree": true
+    },
+    {
+      "document": "CONTROL-invalid-bar.json",
+      "status": "invalid-document",
+      "independentTopLevelErrors": 1,
+      "ajvFindings": 3,
+      "pointersVerified": true,
+      "leafFailuresAgree": true
+    }
+  ]
+}
