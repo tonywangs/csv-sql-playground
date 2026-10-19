@@ -1,0 +1,26 @@
+{
+  "dataset": "Palmer penguins, simplified dataset, 344 observations",
+  "revision": "8957207b78d6ccd1b4654a9dd9c9041b657478ab",
+  "repository": "https://github.com/allisonhorst/palmerpenguins",
+  "license": "CC0-1.0",
+  "license_evidence": "https://allisonhorst.github.io/palmerpenguins/#license",
+  "citation": "Horst AM, Hill AP, Gorman KB (2020), palmerpenguins. doi:10.5281/zenodo.3960218. Data: Kristen Gorman and Palmer Station LTER.",
+  "acquisition_command": [
+    "python3",
+    "scripts/acquire_demo.py"
+  ],
+  "files": [
+    {
+      "name": "penguins.csv",
+      "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/inst/extdata/penguins.csv",
+      "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "bytes": 15241
+    },
+    {
+      "name": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/8957207b78d6ccd1b4654a9dd9c9041b657478ab/LICENSE.md",
+      "sha256": "8e2c443dd9aea6fcd6c293dbf66935bd5ef502fc0ca9b466c773cf9316d5e04c",
+      "bytes": 6966
+    }
+  ]
+}
