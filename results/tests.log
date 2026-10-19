@@ -1,0 +1,48 @@
+
+> chart-point-desk@1.0.0 test:browser
+> playwright test
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:10] "GET / HTTP/1.1" 200 -
+
+Running 4 tests using 1 worker
+
+(node:32) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:13] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:13] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:13] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:13] "GET /src/core.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:17] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:17] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:17] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:17] "GET /src/core.js HTTP/1.1" 200 -
+  ✓  1 tests/browser.spec.mjs:10:32 › population: complete real-input workflow (6.4s)
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:19] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:19] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:19] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:19] "GET /src/core.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:22] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:23] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:23] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:23] "GET /src/core.js HTTP/1.1" 200 -
+  ✓  2 tests/browser.spec.mjs:10:32 › life-expectancy: complete real-input workflow (5.2s)
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:24] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:24] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:24] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:24] "GET /src/core.js HTTP/1.1" 200 -
+  ✓  3 tests/browser.spec.mjs:44:1 › invalid calibration, drag at zoom, keyboard undo, and numeric limits (3.0s)
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:27] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /src/core.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /fixtures/owid/population.png HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /samples/population.project.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /fixtures/owid/life-expectancy.png HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:28] "GET /samples/life-expectancy.project.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:29] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:29] "GET /style.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:29] "GET /src/app.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 20:56:29] "GET /src/core.js HTTP/1.1" 200 -
+  ✓  4 tests/browser.spec.mjs:53:1 › offline demos, rejected project input, and disconnected recovery (1.9s)
+
+  4 passed (19.7s)

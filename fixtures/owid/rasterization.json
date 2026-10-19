@@ -1,0 +1,22 @@
+{
+  "method": "Chromium SVG image rendering at intrinsic 850x600 CSS pixels, deviceScaleFactor=1, white background, no cropping. External fonts/resources disabled; system fallback fonts used. Original SVG bytes unchanged.",
+  "browser": "156.0.8078.4",
+  "files": [
+    {
+      "file": "population.png",
+      "sha256": "75c8c961d41e3fd80da25d783fb04d1eab1e6728f5dc6aeb7e55baa69fb3b542",
+      "source": "population.svg",
+      "sourceSha256": "b754d599d40d3a5ff6263a3401aa20f8fa3750104ff4b3d5ab1c05d0177d92b4",
+      "width": 850,
+      "height": 600
+    },
+    {
+      "file": "life-expectancy.png",
+      "sha256": "41b9d83aa315dd55ffa2479c8f22b0f657d7b4fd8daa0c79485e9dbfca9cb33d",
+      "source": "life-expectancy.svg",
+      "sourceSha256": "01a23a406ea9fccb5236cced029bfc27642050ae84182c8445baa981cc6185a9",
+      "width": 850,
+      "height": 600
+    }
+  ]
+}
