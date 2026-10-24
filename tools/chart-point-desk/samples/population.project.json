@@ -1,0 +1,76 @@
+{
+  "format": "chart-point-desk/v1",
+  "image": {
+    "name": "population.png",
+    "sha256": "75c8c961d41e3fd80da25d783fb04d1eab1e6728f5dc6aeb7e55baa69fb3b542",
+    "width": 850,
+    "height": 600
+  },
+  "calibration": {
+    "x": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 164,
+          "value": 1960
+        },
+        {
+          "pixel": 643,
+          "value": 2010
+        }
+      ]
+    },
+    "y": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 512,
+          "value": 0
+        },
+        {
+          "pixel": 79,
+          "value": 8000000000
+        }
+      ]
+    }
+  },
+  "series": [
+    {
+      "id": "series-1",
+      "name": "World"
+    }
+  ],
+  "activeSeries": "series-1",
+  "points": [
+    {
+      "id": "827db42a-727a-4509-885e-dc22531fd243",
+      "series": "series-1",
+      "px": 164,
+      "py": 348
+    },
+    {
+      "id": "0e2e2f84-d2ee-4cac-b9a6-25fe54740ad2",
+      "series": "series-1",
+      "px": 356,
+      "py": 269
+    },
+    {
+      "id": "383573d3-901c-47e8-b8f3-35165e2ed8bd",
+      "series": "series-1",
+      "px": 547,
+      "py": 179
+    },
+    {
+      "id": "3afea5ff-f31a-45d4-8173-f634dd84c09d",
+      "series": "series-1",
+      "px": 739,
+      "py": 88
+    },
+    {
+      "id": "49e8e6e7-f9d6-4c10-8400-5bcb6b1a29eb",
+      "series": "series-1",
+      "px": 768,
+      "py": 74
+    }
+  ]
+}

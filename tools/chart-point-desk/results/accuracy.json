@@ -1,0 +1,389 @@
+{
+  "reference_plan_sha256": "ac35a75f81b3f589c0300069ff4050a7afdc3c07b0ad8bd653fefb1206f266e3",
+  "method": "Independent Python csv.DictReader; endpoint interpolation in linear or natural-log space. No application transformation imports. All points retained.",
+  "charts": [
+    {
+      "chart": "population",
+      "tolerance": {
+        "x": 0.20876826722338204,
+        "y": 55427251.73210162
+      },
+      "max_absolute_error_x": 0.04801670146116521,
+      "max_absolute_error_y": 53283044.196305275,
+      "mae_y": 25951653.96166277,
+      "rmse_y": 32208706.343032338,
+      "points": [
+        {
+          "point": 1,
+          "reference_x": 1960,
+          "reference_y": 3015470889.0,
+          "pixel_x": 164,
+          "pixel_y": 348,
+          "approximate_x": 1960.0,
+          "approximate_y": 3030023094.6882215,
+          "signed_error_x": 0.0,
+          "signed_error_y": 14552205.688221455,
+          "absolute_error_x": 0.0,
+          "absolute_error_y": 14552205.688221455,
+          "within_tolerance": true
+        },
+        {
+          "point": 2,
+          "reference_x": 1980,
+          "reference_y": 4447606240.0,
+          "pixel_x": 356,
+          "pixel_y": 269,
+          "approximate_x": 1980.0417536534446,
+          "approximate_y": 4489607390.300231,
+          "signed_error_x": 0.04175365344462989,
+          "signed_error_y": 42001150.30023098,
+          "absolute_error_x": 0.04175365344462989,
+          "absolute_error_y": 42001150.30023098,
+          "within_tolerance": true
+        },
+        {
+          "point": 3,
+          "reference_x": 2000,
+          "reference_y": 6171702992.0,
+          "pixel_x": 547,
+          "pixel_y": 179,
+          "approximate_x": 1999.979123173278,
+          "approximate_y": 6152424942.26328,
+          "signed_error_x": -0.02087682672208757,
+          "signed_error_y": -19278049.736720085,
+          "absolute_error_x": 0.02087682672208757,
+          "absolute_error_y": 19278049.736720085,
+          "within_tolerance": true
+        },
+        {
+          "point": 4,
+          "reference_x": 2020,
+          "reference_y": 7887001289.0,
+          "pixel_x": 739,
+          "pixel_y": 88,
+          "approximate_x": 2020.0208768267225,
+          "approximate_y": 7833718244.803695,
+          "signed_error_x": 0.02087682672254232,
+          "signed_error_y": -53283044.196305275,
+          "absolute_error_x": 0.02087682672254232,
+          "absolute_error_y": 53283044.196305275,
+          "within_tolerance": true
+        },
+        {
+          "point": 5,
+          "reference_x": 2023,
+          "reference_y": 8091734933.0,
+          "pixel_x": 768,
+          "pixel_y": 74,
+          "approximate_x": 2023.0480167014612,
+          "approximate_y": 8092378752.886836,
+          "signed_error_x": 0.04801670146116521,
+          "signed_error_y": 643819.8868360519,
+          "absolute_error_x": 0.04801670146116521,
+          "absolute_error_y": 643819.8868360519,
+          "within_tolerance": true
+        }
+      ]
+    },
+    {
+      "chart": "life-expectancy",
+      "tolerance": {
+        "x": 0.20964360587002095,
+        "y": 0.5687203791469194
+      },
+      "max_absolute_error_x": 0.06289308176110353,
+      "max_absolute_error_y": 0.6513094786729852,
+      "mae_y": 0.24661620853080707,
+      "rmse_y": 0.3484294980466629,
+      "points": [
+        {
+          "point": 1,
+          "reference_x": 1960,
+          "reference_y": 47.8198,
+          "pixel_x": 167,
+          "pixel_y": 280,
+          "approximate_x": 1960.0,
+          "approximate_y": 47.772511848341225,
+          "signed_error_x": 0.0,
+          "signed_error_y": -0.0472881516587762,
+          "absolute_error_x": 0.0,
+          "absolute_error_y": 0.0472881516587762,
+          "within_tolerance": true
+        },
+        {
+          "point": 2,
+          "reference_x": 1980,
+          "reference_y": 60.502,
+          "pixel_x": 358,
+          "pixel_y": 215,
+          "approximate_x": 1980.020964360587,
+          "approximate_y": 60.09478672985782,
+          "signed_error_x": 0.02096436058695872,
+          "signed_error_y": -0.40721327014217934,
+          "absolute_error_x": 0.02096436058695872,
+          "absolute_error_y": 0.40721327014217934,
+          "within_tolerance": true
+        },
+        {
+          "point": 3,
+          "reference_x": 2000,
+          "reference_y": 66.4333,
+          "pixel_x": 548,
+          "pixel_y": 185,
+          "approximate_x": 1999.937106918239,
+          "approximate_y": 65.78199052132702,
+          "signed_error_x": -0.06289308176110353,
+          "signed_error_y": -0.6513094786729852,
+          "absolute_error_x": 0.06289308176110353,
+          "absolute_error_y": 0.6513094786729852,
+          "within_tolerance": false
+        },
+        {
+          "point": 4,
+          "reference_x": 2020,
+          "reference_y": 71.9166,
+          "pixel_x": 739,
+          "pixel_y": 152,
+          "approximate_x": 2019.958071278826,
+          "approximate_y": 72.03791469194313,
+          "signed_error_x": -0.04192872117391744,
+          "signed_error_y": 0.12131469194312672,
+          "absolute_error_x": 0.04192872117391744,
+          "absolute_error_y": 0.12131469194312672,
+          "within_tolerance": true
+        },
+        {
+          "point": 5,
+          "reference_x": 2023,
+          "reference_y": 73.1694,
+          "pixel_x": 768,
+          "pixel_y": 146,
+          "approximate_x": 2022.9979035639412,
+          "approximate_y": 73.17535545023696,
+          "signed_error_x": -0.002096436058764084,
+          "signed_error_y": 0.005955450236967863,
+          "absolute_error_x": 0.002096436058764084,
+          "absolute_error_y": 0.005955450236967863,
+          "within_tolerance": true
+        }
+      ]
+    }
+  ],
+  "failed_tolerances": [
+    {
+      "chart": "life-expectancy",
+      "point": 3,
+      "reference_x": 2000,
+      "reference_y": 66.4333,
+      "pixel_x": 548,
+      "pixel_y": 185,
+      "approximate_x": 1999.937106918239,
+      "approximate_y": 65.78199052132702,
+      "signed_error_x": -0.06289308176110353,
+      "signed_error_y": -0.6513094786729852,
+      "absolute_error_x": 0.06289308176110353,
+      "absolute_error_y": 0.6513094786729852,
+      "within_tolerance": false
+    }
+  ],
+  "synthetic_controls": [
+    {
+      "name": "linear",
+      "axis": {
+        "scale": "linear",
+        "anchors": [
+          {
+            "pixel": 50,
+            "value": 10
+          },
+          {
+            "pixel": 450,
+            "value": 90
+          }
+        ]
+      },
+      "pixel": 250,
+      "expected": 50,
+      "valid": true,
+      "rejected": false,
+      "result": 50
+    },
+    {
+      "name": "reversed linear",
+      "axis": {
+        "scale": "linear",
+        "anchors": [
+          {
+            "pixel": 100,
+            "value": 100
+          },
+          {
+            "pixel": 300,
+            "value": 0
+          }
+        ]
+      },
+      "pixel": 150,
+      "expected": 75,
+      "valid": true,
+      "rejected": false,
+      "result": 75
+    },
+    {
+      "name": "logarithmic",
+      "axis": {
+        "scale": "log10",
+        "anchors": [
+          {
+            "pixel": 100,
+            "value": 1
+          },
+          {
+            "pixel": 500,
+            "value": 10000
+          }
+        ]
+      },
+      "pixel": 300,
+      "expected": 100,
+      "valid": true,
+      "rejected": false,
+      "result": 100
+    },
+    {
+      "name": "reversed logarithmic",
+      "axis": {
+        "scale": "log10",
+        "anchors": [
+          {
+            "pixel": 500,
+            "value": 1
+          },
+          {
+            "pixel": 100,
+            "value": 10000
+          }
+        ]
+      },
+      "pixel": 400,
+      "expected": 10,
+      "valid": true,
+      "rejected": false,
+      "result": 10
+    },
+    {
+      "name": "equal pixels",
+      "axis": {
+        "scale": "linear",
+        "anchors": [
+          {
+            "pixel": 50,
+            "value": 1
+          },
+          {
+            "pixel": 50,
+            "value": 2
+          }
+        ]
+      },
+      "valid": false,
+      "rejected": true,
+      "error": "Axis anchors must be at least one pixel apart."
+    },
+    {
+      "name": "equal values",
+      "axis": {
+        "scale": "linear",
+        "anchors": [
+          {
+            "pixel": 50,
+            "value": 2
+          },
+          {
+            "pixel": 250,
+            "value": 2
+          }
+        ]
+      },
+      "valid": false,
+      "rejected": true,
+      "error": "Axis anchor values must differ."
+    },
+    {
+      "name": "nonpositive log",
+      "axis": {
+        "scale": "log10",
+        "anchors": [
+          {
+            "pixel": 50,
+            "value": 0
+          },
+          {
+            "pixel": 250,
+            "value": 10
+          }
+        ]
+      },
+      "valid": false,
+      "rejected": true,
+      "error": "Logarithmic anchor values must be positive."
+    },
+    {
+      "name": "negative log",
+      "axis": {
+        "scale": "log10",
+        "anchors": [
+          {
+            "pixel": 50,
+            "value": -1
+          },
+          {
+            "pixel": 250,
+            "value": 10
+          }
+        ]
+      },
+      "valid": false,
+      "rejected": true,
+      "error": "Logarithmic anchor values must be positive."
+    },
+    {
+      "name": "outside image",
+      "axis": {
+        "scale": "linear",
+        "anchors": [
+          {
+            "pixel": -1,
+            "value": 1
+          },
+          {
+            "pixel": 250,
+            "value": 10
+          }
+        ]
+      },
+      "valid": false,
+      "rejected": true,
+      "error": "Anchor pixel must be inside the image."
+    },
+    {
+      "name": "unsupported scale",
+      "axis": {
+        "scale": "symlog",
+        "anchors": [
+          {
+            "pixel": 50,
+            "value": 1
+          },
+          {
+            "pixel": 250,
+            "value": 10
+          }
+        ]
+      },
+      "valid": false,
+      "rejected": true,
+      "error": "Choose linear or log10 axes."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chart-point-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline, inspectable chart digitization",
+  "scripts": {
+    "start": "python3 scripts/serve.py",
+    "test": "node --test tests/core.test.mjs",
+    "test:browser": "playwright test",
+    "verify": "python3 scripts/verify.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

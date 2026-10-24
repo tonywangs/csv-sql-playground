@@ -1,0 +1,76 @@
+{
+  "format": "chart-point-desk/v1",
+  "image": {
+    "name": "life-expectancy.png",
+    "sha256": "41b9d83aa315dd55ffa2479c8f22b0f657d7b4fd8daa0c79485e9dbfca9cb33d",
+    "width": 850,
+    "height": 600
+  },
+  "calibration": {
+    "x": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 167,
+          "value": 1960
+        },
+        {
+          "pixel": 644,
+          "value": 2010
+        }
+      ]
+    },
+    "y": {
+      "scale": "linear",
+      "anchors": [
+        {
+          "pixel": 532,
+          "value": 0
+        },
+        {
+          "pixel": 110,
+          "value": 80
+        }
+      ]
+    }
+  },
+  "series": [
+    {
+      "id": "series-1",
+      "name": "World"
+    }
+  ],
+  "activeSeries": "series-1",
+  "points": [
+    {
+      "id": "dea2a229-8b70-4b36-8ca7-03e1e92491d2",
+      "series": "series-1",
+      "px": 167,
+      "py": 280
+    },
+    {
+      "id": "1cb59f95-e37e-4c0a-a968-40aa839ac491",
+      "series": "series-1",
+      "px": 358,
+      "py": 215
+    },
+    {
+      "id": "dfa069b3-c491-43c4-bf08-14638587ec9e",
+      "series": "series-1",
+      "px": 548,
+      "py": 185
+    },
+    {
+      "id": "4da20797-fa32-483d-a465-034f6b422ca1",
+      "series": "series-1",
+      "px": 739,
+      "py": 152
+    },
+    {
+      "id": "b3da103e-51d5-4340-9956-917e70b74d88",
+      "series": "series-1",
+      "px": 768,
+      "py": 146
+    }
+  ]
+}
