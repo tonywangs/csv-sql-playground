@@ -1,4 +1,4 @@
-# Crosscut
+# csv-sql-playground
 
 Tools for inspecting, joining, querying, and understanding data.
 
