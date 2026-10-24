@@ -1,0 +1,42 @@
+{
+  "oracle": "Python csv + dictionaries + sorting; no SQLite in expected-value implementation",
+  "source_sha256_before": "287ebd2d218a1d0084753593a724a28243d253c1c560f797c8873e47771ba1b8",
+  "source_sha256_after": "287ebd2d218a1d0084753593a724a28243d253c1c560f797c8873e47771ba1b8",
+  "queries": [
+    {
+      "archive": "results/demo-1.zip",
+      "rows": 249,
+      "status": "complete",
+      "all_cells_and_multiplicities_match": true,
+      "output_hashes_verified": true
+    },
+    {
+      "archive": "results/demo-2.zip",
+      "rows": 14,
+      "status": "complete",
+      "all_cells_and_multiplicities_match": true,
+      "output_hashes_verified": true
+    },
+    {
+      "archive": "results/demo-3.zip",
+      "rows": 7,
+      "status": "complete",
+      "all_cells_and_multiplicities_match": true,
+      "output_hashes_verified": true
+    },
+    {
+      "archive": "results/browser-real-data.zip",
+      "rows": 14,
+      "status": "complete",
+      "all_cells_and_multiplicities_match": true,
+      "output_hashes_verified": true
+    },
+    {
+      "archive": "results/browser-partial.zip",
+      "rows": 2,
+      "status": "truncated",
+      "all_cells_and_multiplicities_match": true,
+      "output_hashes_verified": true
+    }
+  ]
+}

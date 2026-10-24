@@ -1,0 +1,5 @@
+[
+  {"name":"Regions by country", "sql":"SELECT c.code, c.name, COUNT(r.code) AS region_count\nFROM countries AS c LEFT JOIN regions AS r ON r.iso_country = c.code\nGROUP BY c.code, c.name\nORDER BY region_count DESC, c.code", "parameters":{}},
+  {"name":"Explore one country", "sql":"SELECT c.name AS country, r.code, r.name AS region\nFROM countries AS c JOIN regions AS r ON r.iso_country = c.code\nWHERE c.code = :country\nORDER BY r.code", "parameters":{"country":{"type":"text","value":"CA"}}},
+  {"name":"Continental summary", "sql":"SELECT c.continent, COUNT(DISTINCT c.code) AS countries, COUNT(r.code) AS regions\nFROM countries AS c LEFT JOIN regions AS r ON r.iso_country = c.code\nGROUP BY c.continent\nORDER BY c.continent", "parameters":{}}
+]
