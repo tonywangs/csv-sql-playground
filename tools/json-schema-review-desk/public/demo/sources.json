@@ -1,0 +1,41 @@
+{
+  "description": "Unmodified real Vega visualization specifications and published schema. Invalid control is generated separately in the UI and clearly labeled.",
+  "files": [
+    {
+      "name": "bar-chart.json",
+      "url": "https://raw.githubusercontent.com/vega/vega/d2ef8b4f7d59c02ea80129f59551550a22e0ed97/docs/examples/bar-chart.vg.json",
+      "sha256": "543c2f8a41012e7243d070dd390974ed566331a0352dfee1b36f1012a06247f2",
+      "bytes": 2318,
+      "license": "BSD-3-Clause",
+      "licenseEvidence": "LICENSE-vega",
+      "revision": "d2ef8b4f7d59c02ea80129f59551550a22e0ed97"
+    },
+    {
+      "name": "pie-chart.json",
+      "url": "https://raw.githubusercontent.com/vega/vega/d2ef8b4f7d59c02ea80129f59551550a22e0ed97/docs/examples/pie-chart.vg.json",
+      "sha256": "482f27a3b51f2d8854d57f263a6493e7742f9ce27d874ae0c17909598dab101c",
+      "bytes": 2135,
+      "license": "BSD-3-Clause",
+      "licenseEvidence": "LICENSE-vega",
+      "revision": "d2ef8b4f7d59c02ea80129f59551550a22e0ed97"
+    },
+    {
+      "name": "LICENSE-vega",
+      "url": "https://raw.githubusercontent.com/vega/vega/d2ef8b4f7d59c02ea80129f59551550a22e0ed97/LICENSE",
+      "sha256": "63727832aaf62004a2b249c933e327f3c90caf49e41a72f4bf436edf632cbda8",
+      "bytes": 1533,
+      "license": "BSD-3-Clause",
+      "licenseEvidence": "LICENSE-vega",
+      "revision": "d2ef8b4f7d59c02ea80129f59551550a22e0ed97"
+    },
+    {
+      "name": "vega-schema.json",
+      "url": "https://unpkg.com/vega-schema@5.30.0/build/vega-schema.json",
+      "sha256": "173a2d512cf0d8bc841bc90ce574f0526f710e4762820e6ca68bf86e35595920",
+      "bytes": 419562,
+      "license": "BSD-3-Clause",
+      "licenseEvidence": "LICENSE-vega",
+      "revision": "npm vega-schema@5.30.0"
+    }
+  ]
+}
