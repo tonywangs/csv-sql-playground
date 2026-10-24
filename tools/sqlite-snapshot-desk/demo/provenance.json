@@ -1,0 +1,47 @@
+{
+  "dataset": "OurAirports countries and regions",
+  "license": "Public domain per https://ourairports.com/about.html and https://ourairports.com/data/",
+  "license_evidence": "demo/sources/license-evidence.txt",
+  "import": "python3 scripts/build_demo.py; all CSV fields imported as TEXT, including empty strings and leading zeros; no mutations, no synthetic rows",
+  "acquire": "python3 scripts/build_demo.py --fetch",
+  "snapshots": {
+    "before": {
+      "revision": "ce94208f0918987f3594a1afd8409e5146d5aff4",
+      "revision_date": "2025-02-21T02:53:11Z",
+      "sources": {
+        "countries": {
+          "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/ce94208f0918987f3594a1afd8409e5146d5aff4/countries.csv",
+          "path": "demo/sources/before.csv",
+          "sha256": "5f8098f6e124d3b4707a8f7f8d70453a0fff4cdbd20922863fc93ab3218ac529",
+          "row_reference": "CSV data record ordinal (header excluded); matches SQLite scan ordinal in this importer"
+        },
+        "regions": {
+          "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/ce94208f0918987f3594a1afd8409e5146d5aff4/regions.csv",
+          "path": "demo/sources/before-regions.csv",
+          "sha256": "a8736300c460bf868f6153f5a8ffc5c8e5eba24d3181dba2c6dfb628cf9374a8",
+          "row_reference": "CSV data record ordinal (header excluded); matches SQLite scan ordinal in this importer"
+        }
+      },
+      "sqlite_sha256": "d6d67540802c3500367c7699945d7cea8f318090cb2a46f0dfcf199e39114dd7"
+    },
+    "after": {
+      "revision": "e6e15e5a5b8add6d6b1447ca453a1136103585e4",
+      "revision_date": "2025-02-28T02:53:11Z",
+      "sources": {
+        "countries": {
+          "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/e6e15e5a5b8add6d6b1447ca453a1136103585e4/countries.csv",
+          "path": "demo/sources/after.csv",
+          "sha256": "2a9dbee691125b0cdb8ceb5fe227c48c903f99c488963b8e53e2ab366521c639",
+          "row_reference": "CSV data record ordinal (header excluded); matches SQLite scan ordinal in this importer"
+        },
+        "regions": {
+          "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/e6e15e5a5b8add6d6b1447ca453a1136103585e4/regions.csv",
+          "path": "demo/sources/after-regions.csv",
+          "sha256": "42c04c71132dae066c56313c0973cd0df604203d4b34202299befa7634614c25",
+          "row_reference": "CSV data record ordinal (header excluded); matches SQLite scan ordinal in this importer"
+        }
+      },
+      "sqlite_sha256": "5a133e73b177dcd0977f5a28516000eef998641759142960a4d72a8a9d1a78df"
+    }
+  }
+}

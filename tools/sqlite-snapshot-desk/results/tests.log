@@ -1,0 +1,40 @@
+test_declared_schema_changes_are_visible (test_comparison.ComparisonTests.test_declared_schema_changes_are_visible) ... ok
+test_duplicates_null_and_composite_keys (test_comparison.ComparisonTests.test_duplicates_null_and_composite_keys) ... ok
+test_generated_values_are_bounded (test_comparison.ComparisonTests.test_generated_values_are_bounded) ... ok
+test_invalid_identity (test_comparison.ComparisonTests.test_invalid_identity) ... ok
+test_key_changes_and_storage_classes (test_comparison.ComparisonTests.test_key_changes_and_storage_classes) ... ok
+test_limits_incomplete_not_truncated_success (test_comparison.ComparisonTests.test_limits_incomplete_not_truncated_success) ... ok
+test_missing_table_and_incompatible_schema (test_comparison.ComparisonTests.test_missing_table_and_incompatible_schema) ... ok
+test_multiset_preserves_occurrences (test_comparison.ComparisonTests.test_multiset_preserves_occurrences) ... ok
+test_quoted_names_and_html_data (test_comparison.ComparisonTests.test_quoted_names_and_html_data) ... ok
+test_schema_only_objects_and_without_rowid (test_comparison.ComparisonTests.test_schema_only_objects_and_without_rowid) ... ok
+test_text_blob_and_typed_keys_are_distinct (test_comparison.ComparisonTests.test_text_blob_and_typed_keys_are_distinct) ... ok
+test_virtual_and_collation_unsupported (test_comparison.ComparisonTests.test_virtual_and_collation_unsupported) ... ok
+test_wal_companions_and_encrypted_rejected (test_comparison.ComparisonTests.test_wal_companions_and_encrypted_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.120s
+
+OK
+{
+  "oracle": "independent SQL joins + exact CSV import + SHA-256 preservation",
+  "counts": {
+    "countries": {
+      "added": 1,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 248,
+      "ambiguous_before": 0,
+      "ambiguous_after": 0
+    },
+    "regions": {
+      "added": 2,
+      "removed": 1,
+      "changed": 13,
+      "unchanged": 3898,
+      "ambiguous_before": 0,
+      "ambiguous_after": 0
+    }
+  }
+}
+PASS browser: demo, tables, identities, search, inspection, exact JSON/HTML export, offline use, uploads, failed-input state, __proto__ table, BLOB/integer precision, HTML escaping, empty databases
