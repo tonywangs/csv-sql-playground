@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+csv_reconcile_desk/__init__.py
+csv_reconcile_desk/__main__.py
+csv_reconcile_desk/cli.py
+csv_reconcile_desk/core.py
+csv_reconcile_desk/report.html
+csv_reconcile_desk.egg-info/PKG-INFO
+csv_reconcile_desk.egg-info/SOURCES.txt
+csv_reconcile_desk.egg-info/dependency_links.txt
+csv_reconcile_desk.egg-info/entry_points.txt
+csv_reconcile_desk.egg-info/top_level.txt
+tests/test_reconcile.py
