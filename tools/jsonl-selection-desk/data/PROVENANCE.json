@@ -1,0 +1,37 @@
+{
+  "credit": "U.S. Geological Survey, Department of the Interior",
+  "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01&endtime=2024-01-02&minmagnitude=2.5&orderby=time-asc",
+  "format_documentation": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php",
+  "acquired_utc": "2026-10-19T19:04:36.008610+00:00",
+  "revision": {
+    "catalog_metadata": {
+      "generated": 1792436508000,
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01&endtime=2024-01-02&minmagnitude=2.5&orderby=time-asc",
+      "title": "USGS Earthquakes",
+      "status": 200,
+      "api": "2.8.1",
+      "count": 111
+    },
+    "identity": "SHA-256 of retained GeoJSON response; catalog events may be revised upstream"
+  },
+  "rights": {
+    "status": "USGS-produced data: U.S. Public Domain",
+    "policy_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+    "evidence_excerpt": "USGS-authored or produced data and information are considered to be in the U.S. Public Domain.",
+    "scope": "Event catalog data only; no third-party photographs, illustrations or branding included."
+  },
+  "conversion": "Each GeoJSON features[] object is serialized by Python json.dumps(ensure_ascii=False,separators=(comma,colon),allow_nan=False), UTF-8, followed by LF. Feature order and nested data retained. These JSONL bytes are a conversion, not the original HTTP bytes.",
+  "records": 111,
+  "source_sha256": "55664121a49c2c5320299da2a25949c4cd260a051660744e5ceda12aa602eaf6",
+  "jsonl_sha256": "020abab3b2d7a019e137e19d2f3c1be76c52a90236910624590eed5215cc22ad",
+  "reproduce_pinned": [
+    "python3",
+    "tools/acquire.py",
+    "--check"
+  ],
+  "refresh_upstream": [
+    "python3",
+    "tools/acquire.py",
+    "--fetch"
+  ]
+}
