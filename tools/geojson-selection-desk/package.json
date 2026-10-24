@@ -1,0 +1,24 @@
+{
+  "name": "geojson-selection-desk",
+  "version": "1.0.0",
+  "description": "An offline map workbench for inspecting GeoJSON features, selecting useful subsets, and exporting unchanged geometries with traceable selection records.",
+  "scripts": {
+    "start": "./launch.sh",
+    "test": "node --test tests/core.test.mjs",
+    "demo": "node scripts/demo.mjs",
+    "test:browser": "playwright test",
+    "viewer": "mapshaper results/europe.geojson -proj robin -o results/europe.svg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "mapshaper": "^0.7.90"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  },
+  "private": true
+}

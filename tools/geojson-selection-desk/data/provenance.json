@@ -1,0 +1,18 @@
+{
+  "revision": "f1890d9f152c896d250a77557a5751a93d494776",
+  "license": "Natural Earth public domain; see LICENSE-natural-earth.md",
+  "files": {
+    "countries.source.json": {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_admin_0_countries.geojson",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    "LICENSE-natural-earth.md": {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/LICENSE.md",
+      "sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b"
+    },
+    "countries.geojson": {
+      "sha256": "5aedbb60ca66be7b2a576dcb37108c8e20a3451c8f18d9961325b102b4a536df",
+      "conversion": "Remove legacy CRS84 declaration only; serialize JSON, no coordinate transformation."
+    }
+  }
+}
