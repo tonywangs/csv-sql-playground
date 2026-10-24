@@ -1,4 +1,7 @@
-# Personal Data Tools
+# Crosscut
+
+Tools for inspecting, joining, querying, and understanding data.
+
 
 Independent utilities collected into one private repository. Each lives under `tools/<name>/`; run its installation and commands from that directory. This is a source consolidation, not a unified application.
 
