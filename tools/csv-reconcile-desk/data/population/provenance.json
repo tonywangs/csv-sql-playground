@@ -1,0 +1,17 @@
+{
+  "dataset": "World Bank population, total (SP.POP.TOTL), CSV conversion by datasets/population",
+  "upstream": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+  "repository": "https://github.com/datasets/population",
+  "acquired_utc": "2026-10-19",
+  "key": ["Country Code", "Year"],
+  "transformation": "None: byte-for-byte copies of complete upstream CSV revisions.",
+  "licenses": [
+    {"scope": "Data package", "name": "ODC-PDDL-1.0", "url": "https://opendatacommons.org/licenses/pddl/1-0/", "evidence": "https://github.com/datasets/population/blob/d4b1a4a9a17e2123baf0ef119de05bceced1ab1b/datapackage.json"},
+    {"scope": "World Bank indicator", "name": "CC-BY-4.0", "url": "https://creativecommons.org/licenses/by/4.0/", "evidence": "https://data.worldbank.org/indicator/SP.POP.TOTL", "additional_terms": "https://datacatalog.worldbank.org/public-licenses"}
+  ],
+  "attribution": "World Bank, Population, total (SP.POP.TOTL); underlying sources include UN Population Division, national statistical offices, Eurostat and UN Statistics Division. CSV packaging by datasets/population contributors. No endorsement implied.",
+  "revisions": {
+    "before": {"file": "before.csv", "commit": "425fc447a53a26c767a15a7de60c4cc2478a0595", "committed_utc": "2026-03-06T11:27:07Z", "url": "https://raw.githubusercontent.com/datasets/population/425fc447a53a26c767a15a7de60c4cc2478a0595/data/population.csv", "sha256": "7d2dd6a17f5ed7916de1f89a9c116791e64d207f2e2f6ce47c57e1ab46f0088a", "bytes": 552112, "records": 17195},
+    "after": {"file": "after.csv", "commit": "d4b1a4a9a17e2123baf0ef119de05bceced1ab1b", "committed_utc": "2026-10-01T02:32:39Z", "url": "https://raw.githubusercontent.com/datasets/population/d4b1a4a9a17e2123baf0ef119de05bceced1ab1b/data/population.csv", "sha256": "2c697c3e668c8cb06ee467cd0d475b37b52844fdc48cb7725b79b58f18bf0b02", "bytes": 556718, "records": 17394}
+  }
+}
