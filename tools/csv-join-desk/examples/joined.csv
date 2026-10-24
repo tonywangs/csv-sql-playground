@@ -1,0 +1,472 @@
+_left_record,_right_record,left.ident,left.name,left.iso_country,left.municipality,right.code,right.name,right.continent
+1,192,AGGH,Honiara International Airport,SB,Honiara,SB,Solomon Islands,OC
+2,13,AU-0539,Western Sydney International (Nancy-Bird Walton) Airport,AU,Sydney,AU,Australia,OC
+3,174,AYNZ,Nadzab Tomodachi International Airport,PG,Lae,PG,Papua New Guinea,OC
+4,174,AYPY,Port Moresby Jacksons International Airport,PG,Port Moresby,PG,Papua New Guinea,OC
+5,82,BGGH,Nuuk International Airport,GL,Nuuk,GL,Greenland,NA
+6,107,BIAR,Akureyri International Airport,IS,Akureyri,IS,Iceland,EU
+7,107,BIKF,Keflavik International Airport,IS,Reykjavík,IS,Iceland,EU
+8,242,BKPR,Priština Adem Jashari International Airport,XK,Prishtina,XK,Kosovo,EU
+9,36,CA-1291,(Duplicate)YEG,CA,Edmonton,CA,Canada,NA
+10,36,CA-1292,YEG,CA,Edmonton,CA,Canada,NA
+11,36,CYEG,Edmonton International Airport,CA,Edmonton,CA,Canada,NA
+12,36,CYHM,John C. Munro Hamilton International Airport,CA,Hamilton,CA,Canada,NA
+13,36,CYHZ,Halifax / Stanfield International Airport,CA,Halifax,CA,Canada,NA
+14,36,CYLW,Kelowna International Airport,CA,Kelowna,CA,Canada,NA
+15,36,CYOW,Ottawa Macdonald-Cartier International Airport,CA,Ottawa,CA,Canada,NA
+16,36,CYQB,Quebec Jean Lesage International Airport,CA,Quebec,CA,Canada,NA
+17,36,CYQG,Windsor International Airport,CA,Windsor,CA,Canada,NA
+18,36,CYUL,Montreal / Pierre Elliott Trudeau International Airport,CA,Montréal,CA,Canada,NA
+19,36,CYVR,Vancouver International Airport,CA,Vancouver,CA,Canada,NA
+20,36,CYWG,Winnipeg / James Armstrong Richardson International Airport,CA,Winnipeg,CA,Canada,NA
+21,36,CYXE,Saskatoon John G. Diefenbaker International Airport,CA,Saskatoon,CA,Canada,NA
+22,36,CYYC,Calgary International Airport,CA,Calgary,CA,Canada,NA
+23,36,CYYJ,Victoria International Airport,CA,Victoria,CA,Canada,NA
+24,36,CYYT,St. John's International Airport,CA,St. John's,CA,Canada,NA
+25,36,CYYZ,Toronto Pearson International Airport,CA,Toronto,CA,Canada,NA
+26,60,DAAE,Soummam–Abane Ramdane Airport,DZ,Béjaïa,DZ,Algeria,AF
+27,60,DAAG,Houari Boumediene Airport,DZ,Algiers,DZ,Algeria,AF
+28,60,DAAJ,Tiska Djanet Airport,DZ,Djanet,DZ,Algeria,AF
+29,60,DAAT,Aguenar – Hadj Bey Akhamok Airport,DZ,Tamanrasset,DZ,Algeria,AF
+30,60,DAAV,Jijel Ferhat Abbas Airport,DZ,Tahir,DZ,Algeria,AF
+31,60,DABB,Annaba Rabah Bitat Airport,DZ,Annaba,DZ,Algeria,AF
+32,60,DABC,Mohamed Boudiaf International Airport,DZ,Constantine,DZ,Algeria,AF
+33,60,DABT,Batna Mostefa Ben Boulaid Airport,DZ,Batna,DZ,Algeria,AF
+34,60,DAOI,Chlef Aboubakr Belkaid International Airport,DZ,Chlef,DZ,Algeria,AF
+35,60,DAON,Zenata – Messali El Hadj Airport,DZ,Zenata,DZ,Algeria,AF
+36,60,DAOO,Oran Es-Sénia (Ahmed Ben Bella) International Airport,DZ,Es-Sénia,DZ,Algeria,AF
+37,60,DAUB,Biskra - Mohamed Khider Airport,DZ,Biskra,DZ,Algeria,AF
+38,24,DBBB,Cotonou Cadjehoun International Airport,BJ,Cotonou,BJ,Benin,AF
+39,20,DFFD,Ouagadougou Thomas Sankara International Airport,BF,Ouagadougou,BF,Burkina Faso,AF
+40,20,DFOO,Bobo Dioulasso Airport,BF,Bobo Dioulasso,BF,Burkina Faso,AF
+41,80,DGAA,Kotoka International Airport,GH,Accra,GH,Ghana,AF
+42,80,DGLE,Yakubu Tali International Airport,GH,Tamale,GH,Ghana,AF
+43,80,DGSI,Prempeh I International Airport,GH,Kumasi,GH,Ghana,AF
+44,42,DIAP,Félix-Houphouët-Boigny International Airport,CI,Abidjan,CI,Côte d'Ivoire,AF
+45,42,DIYO,Yamoussoukro International Airport,CI,Yamoussoukro,CI,Côte d'Ivoire,AF
+46,162,DNAA,Nnamdi Azikiwe International Airport,NG,Abuja,NG,Nigeria,AF
+47,162,DNAS,Asaba International Airport,NG,Asaba,NG,Nigeria,AF
+48,162,DNBC,Sir Abubakar Tafawa Balewa Bauchi State International Airport,NG,Bauchi,NG,Nigeria,AF
+49,162,DNEN,Akanu Ibiam International Airport,NG,Enegu,NG,Nigeria,AF
+50,162,DNIL,General Tunde Idiagbon International Airport,NG,Ilorin/Ogbomosho,NG,Nigeria,AF
+51,162,DNKA,Kaduna International Airport,NG,Kaduna,NG,Nigeria,AF
+52,162,DNKN,Mallam Aminu Kano International Airport,NG,Kano,NG,Nigeria,AF
+53,162,DNMA,Maiduguri International Airport,NG,Maiduguri,NG,Nigeria,AF
+54,162,DNMM,Murtala Muhammed International Airport,NG,Lagos,NG,Nigeria,AF
+55,162,DNPO,Port Harcourt International Airport,NG,Port Harcourt,NG,Nigeria,AF
+56,162,DNSO,Sadiq Abubakar III International Airport,NG,Sokoto,NG,Nigeria,AF
+57,160,DRRN,Diori Hamani International Airport,NE,Niamey,NE,Niger,AF
+58,220,DTTA,Tunis Carthage International Airport,TN,Tunis,TN,Tunisia,AF
+59,220,DTTJ,Djerba Zarzis International Airport,TN,Mellita,TN,Tunisia,AF
+60,214,DXNG,Niamtougou International Airport,TG,Niamtougou,TG,Togo,AF
+61,214,DXXX,Lomé–Tokoin International Airport,TG,Lomé,TG,Togo,AF
+62,19,EBBR,Brussels Airport,BE,Zaventem,BE,Belgium,EU
+63,19,EBCI,Brussels South Charleroi Airport,BE,Charleroi,BE,Belgium,EU
+64,19,EBOS,Ostend-Bruges International Airport,BE,Oostende,BE,Belgium,EU
+65,55,EDDB,Berlin Brandenburg Airport,DE,Berlin,DE,Germany,EU
+66,55,EDDC,Dresden Airport,DE,Dresden,DE,Germany,EU
+67,55,EDDE,Erfurt-Weimar Airport,DE,Erfurt,DE,Germany,EU
+68,55,EDDF,Frankfurt Main Airport,DE,Frankfurt am Main,DE,Germany,EU
+69,55,EDDG,Münster Osnabrück Airport,DE,Greven,DE,Germany,EU
+70,55,EDDH,Hamburg Helmut Schmidt Airport,DE,Hamburg,DE,Germany,EU
+71,55,EDDK,Cologne Bonn Airport,DE,Köln (Cologne),DE,Germany,EU
+72,55,EDDL,Düsseldorf Airport,DE,Düsseldorf,DE,Germany,EU
+73,55,EDDM,Munich Airport,DE,Munich,DE,Germany,EU
+74,55,EDDN,Nuremberg Airport,DE,Nuremberg,DE,Germany,EU
+75,55,EDDP,Leipzig/Halle Airport,DE,Schkeuditz,DE,Germany,EU
+76,55,EDDS,Stuttgart Airport,DE,Stuttgart,DE,Germany,EU
+77,55,EDDV,Hannover Airport,DE,Hannover,DE,Germany,EU
+78,55,EDDW,Bremen Airport,DE,Bremen,DE,Germany,EU
+79,55,EDFH,Frankfurt-Hahn Airport,DE,Frankfurt am Main (Lautzenhausen),DE,Germany,EU
+80,55,EDJA,Memmingen Allgau Airport,DE,Memmingen,DE,Germany,EU
+81,55,EDLP,Paderborn Lippstadt Airport,DE,Büren,DE,Germany,EU
+82,55,EDLV,Weeze (Niederrhein) Airport,DE,Weeze,DE,Germany,EU
+83,55,EDLW,Dortmund Airport,DE,Dortmund,DE,Germany,EU
+84,55,EDNY,Bodensee Airport Friedrichshafen,DE,Friedrichshafen,DE,Germany,EU
+85,55,EDSB,Karlsruhe Baden-Baden Airport,DE,Rheinmünster,DE,Germany,EU
+86,55,EDVK,Kassel Airport,DE,Calden,DE,Germany,EU
+87,63,EES,Berenice International Airport / Banas Cape Air Base,EG,Berenice Troglodytica,EG,Egypt,AF
+88,62,EETN,Lennart Meri Tallinn Airport,EE,Tallinn,EE,Estonia,EU
+89,68,EFHK,Helsinki Vantaa Airport,FI,Helsinki (Vantaa),FI,Finland,EU
+90,68,EFIV,Ivalo Airport,FI,Ivalo,FI,Finland,EU
+91,68,EFKT,Kittilä International Airport,FI,Kittilä,FI,Finland,EU
+92,68,EFKU,Kuopio Airport,FI,Kuopio / Siilinjärvi,FI,Finland,EU
+93,68,EFLP,Lappeenranta Airport,FI,Lappeenranta,FI,Finland,EU
+94,68,EFOU,Oulu Airport,FI,Oulu / Oulunsalo,FI,Finland,EU
+95,68,EFRO,Rovaniemi Airport,FI,Rovaniemi,FI,Finland,EU
+96,68,EFTP,Tampere-Pirkkala Airport,FI,Tampere / Pirkkala,FI,Finland,EU
+97,68,EFTU,Turku Airport,FI,Turku,FI,Finland,EU
+98,68,EFVA,Vaasa Airport,FI,Vaasa,FI,Finland,EU
+99,75,EGAA,Belfast International Airport,GB,Belfast,GB,United Kingdom,EU
+100,75,EGBB,Birmingham Airport,GB,"Birmingham, West Midlands",GB,United Kingdom,EU
+101,75,EGCC,Manchester Airport,GB,"Manchester, Greater Manchester",GB,United Kingdom,EU
+102,75,EGFF,Cardiff International Airport,GB,Cardiff,GB,United Kingdom,EU
+103,75,EGGD,Bristol Airport,GB,Bristol,GB,United Kingdom,EU
+104,75,EGGP,Liverpool John Lennon Airport,GB,Liverpool,GB,United Kingdom,EU
+105,75,EGGW,London Luton Airport,GB,"Luton, Luton",GB,United Kingdom,EU
+106,75,EGKK,London Gatwick Airport,GB,London,GB,United Kingdom,EU
+107,75,EGLL,London Heathrow Airport,GB,London,GB,United Kingdom,EU
+108,75,EGNM,Leeds Bradford Airport,GB,"Leeds, West Yorkshire",GB,United Kingdom,EU
+109,102,EGNS,Isle of Man Airport,IM,"Castletown, Rushen",IM,Isle of Man,EU
+110,75,EGNT,Newcastle International Airport,GB,"Newcastle upon Tyne, Tyne and Wear",GB,United Kingdom,EU
+111,75,EGNX,East Midlands Airport,GB,"Nottingham, Leicestershire",GB,United Kingdom,EU
+112,75,EGPD,Aberdeen International Airport,GB,Aberdeen,GB,United Kingdom,EU
+113,75,EGPF,Glasgow Airport,GB,Glasgow,GB,United Kingdom,EU
+114,75,EGPH,Edinburgh Airport,GB,"Ingliston, Edinburgh",GB,United Kingdom,EU
+115,75,EGPK,Glasgow Prestwick Airport,GB,"Prestwick, South Ayrshire",GB,United Kingdom,EU
+116,75,EGSS,London Stansted Airport,GB,"London, Essex",GB,United Kingdom,EU
+117,164,EHAM,Amsterdam Airport Schiphol,NL,Amsterdam,NL,Netherlands,EU
+118,164,EHBK,Maastricht Aachen Airport,NL,Maastricht,NL,Netherlands,EU
+119,164,EHEH,Eindhoven Airport,NL,Eindhoven,NL,Netherlands,EU
+120,164,EHGG,Groningen Airport Eelde,NL,Groningen,NL,Netherlands,EU
+121,164,EHRD,Rotterdam The Hague Airport,NL,Rotterdam,NL,Netherlands,EU
+122,100,EICK,Cork International Airport,IE,Cork,IE,Ireland,EU
+123,100,EIDW,Dublin Airport,IE,Dublin,IE,Ireland,EU
+124,100,EIKN,Ireland West Airport Knock,IE,Charlestown,IE,Ireland,EU
+125,100,EINN,Shannon Airport,IE,Shannon,IE,Ireland,EU
+126,57,EKAH,Aarhus Airport,DK,Aarhus,DK,Denmark,EU
+127,57,EKBI,Billund Airport,DK,Billund,DK,Denmark,EU
+128,57,EKCH,Copenhagen Kastrup Airport,DK,Copenhagen,DK,Denmark,EU
+129,57,EKOD,Odense Hans Christian Andersen Airport,DK,Odense,DK,Denmark,EU
+130,72,EKVG,Vágar Airport,FO,Vágar,FO,Faroe Islands,EU
+131,57,EKYT,Aalborg Airport,DK,Aalborg,DK,Denmark,EU
+132,132,ELLX,Luxembourg-Findel International Airport,LU,Luxembourg,LU,Luxembourg,EU
+133,165,ENAL,Ålesund Airport,NO,Ålesund,NO,Norway,EU
+134,165,ENBO,Bodø Airport,NO,Bodø,NO,Norway,EU
+135,165,ENBR,"Bergen Airport, Flesland",NO,Bergen,NO,Norway,EU
+136,165,ENCN,Kristiansand Airport,NO,Kristiansand(Kjevik),NO,Norway,EU
+137,165,ENEV,Harstad/Narvik Airport,NO,Evenes,NO,Norway,EU
+138,165,ENGM,Oslo-Gardermoen International Airport,NO,Oslo (Gardermoen),NO,Norway,EU
+139,165,ENTC,Tromsø Airport,NO,Tromsø,NO,Norway,EU
+140,165,ENTO,"Sandefjord Airport, Torp",NO,Sandefjord(Torp),NO,Norway,EU
+141,165,ENVA,"Trondheim Airport, Værnes",NO,Trondheim,NO,Norway,EU
+142,165,ENZV,"Stavanger Airport, Sola",NO,Stavanger,NO,Norway,EU
+143,177,EPGD,Gdańsk Lech Wałęsa Airport,PL,Gdańsk,PL,Poland,EU
+144,177,EPKK,Kraków John Paul II International Airport,PL,Balice,PL,Poland,EU
+145,177,EPKT,Katowice Wojciech Korfanty International Airport,PL,Katowice,PL,Poland,EU
+146,177,EPLB,Lublin Airport,PL,Lublin,PL,Poland,EU
+147,177,EPLL,Łódź Władysław Reymont Airport,PL,Łódź,PL,Poland,EU
+148,177,EPMO,Warsaw Modlin Airport,PL,Nowy Dwór Mazowiecki,PL,Poland,EU
+149,177,EPPO,Poznań-Ławica Airport,PL,Poznań,PL,Poland,EU
+150,177,EPRZ,Rzeszów-Jasionka Airport,PL,Jasionka,PL,Poland,EU
+151,177,EPSC,Solidarity Szczecin–Goleniów Airport,PL,Szczecin(Glewice),PL,Poland,EU
+152,177,EPWA,Warsaw Chopin Airport,PL,Warsaw,PL,Poland,EU
+153,177,EPWR,Copernicus Wrocław Airport,PL,Wrocław,PL,Poland,EU
+154,195,ESGG,Göteborg Landvetter Airport,SE,Göteborg,SE,Sweden,EU
+155,195,ESKN,Stockholm Skavsta Airport,SE,Nyköping,SE,Sweden,EU
+156,195,ESKS,Scandinavian Mountains Airport,SE,Malung-Sälen,SE,Sweden,EU
+157,195,ESMS,Malmö Sturup Airport,SE,Malmö,SE,Sweden,EU
+158,195,ESNQ,Kiruna Airport,SE,Kiruna,SE,Sweden,EU
+159,195,ESNU,Umeå Airport,SE,Umeå,SE,Sweden,EU
+160,195,ESOW,Stockholm Västerås Airport,SE,Stockholm / Västerås,SE,Sweden,EU
+161,195,ESPA,Luleå Airport,SE,Luleå,SE,Sweden,EU
+162,195,ESSA,Stockholm-Arlanda Airport,SE,Stockholm,SE,Sweden,EU
+163,195,ESSL,Linköping City Airport,SE,Linköping,SE,Sweden,EU
+164,195,ESSV,Visby Airport,SE,Visby,SE,Sweden,EU
+165,133,EVLA,Liepāja International Airport,LV,Liepāja,LV,Latvia,EU
+166,133,EVRA,Riga International Airport,LV,Riga,LV,Latvia,EU
+167,131,EYKA,Kaunas International Airport,LT,Kaunas,LT,Lithuania,EU
+168,131,EYPA,Palanga International Airport,LT,Palanga,LT,Lithuania,EU
+169,131,EYVI,Vilnius International Airport,LT,Vilnius,LT,Lithuania,EU
+170,246,FABL,Bram Fischer International Airport,ZA,Bloemfontein,ZA,South Africa,AF
+171,246,FACT,Cape Town International Airport,ZA,Cape Town,ZA,South Africa,AF
+172,246,FAEL,King Phalo Airport,ZA,East London,ZA,South Africa,AF
+173,246,FAGG,George Airport,ZA,George,ZA,South Africa,AF
+174,246,FAKM,Kimberley Airport,ZA,Kimberley,ZA,South Africa,AF
+175,246,FAKN,Kruger Mpumalanga International Airport,ZA,Mbombela,ZA,South Africa,AF
+176,246,FALA,Lanseria International Airport,ZA,Johannesburg,ZA,South Africa,AF
+177,246,FALE,King Shaka International Airport,ZA,Durban,ZA,South Africa,AF
+178,246,FAOR,O.R. Tambo International Airport,ZA,Johannesburg,ZA,South Africa,AF
+179,246,FAPE,Chief Dawid Stuurman International Airport,ZA,Gqeberha (Port Elizabeth),ZA,South Africa,AF
+180,246,FAPP,Polokwane International Airport,ZA,Polokwane,ZA,South Africa,AF
+181,33,FBFT,Phillip Gaonwe Matante International Airport,BW,Francistown,BW,Botswana,AF
+182,33,FBKE,Kasane International Airport,BW,Kasane,BW,Botswana,AF
+183,33,FBMN,Maun International Airport,BW,Maun,BW,Botswana,AF
+184,33,FBSK,Sir Seretse Khama International Airport,BW,Gaborone,BW,Botswana,AF
+185,40,FCBB,Maya-Maya International Airport,CG,Brazzaville,CG,Republic of the Congo,AF
+186,40,FCPP,Antonio Agostinho-Neto International Airport,CG,Pointe Noire,CG,Republic of the Congo,AF
+187,210,FDSK,King Mswati III International Airport,SZ,Mpaka,SZ,Eswatini,AF
+188,39,FEFF,Bangui M'Poko International Airport,CF,Bangui,CF,Central African Republic,AF
+189,86,FGBT,Bata International Airport,GQ,Bata,GQ,Equatorial Guinea,AF
+190,86,FGSL,Malabo International Airport,GQ,Malabo,GQ,Equatorial Guinea,AF
+191,152,FIMP,Sir Seewoosagur Ramgoolam International Airport,MU,Plaine Magnien,MU,Mauritius,AF
+192,45,FKKD,Douala International Airport,CM,Douala,CM,Cameroon,AF
+193,45,FKKR,Garoua International Airport,CM,Garoua,CM,Cameroon,AF
+194,45,FKYS,Yaoundé Nsimalen International Airport,CM,Yaoundé,CM,Cameroon,AF
+195,247,FLLI,Harry Mwanga Nkumbula International Airport,ZM,Livingstone,ZM,Zambia,AF
+196,247,FLLS,Kenneth Kaunda International Airport,ZM,Lusaka,ZM,Zambia,AF
+197,247,FLMF,Mfuwe International Airport,ZM,Mfuwe,ZM,Zambia,AF
+198,247,FLSK,Simon Mwansa Kapwepwe International Airport,ZM,Ndola,ZM,Zambia,AF
+199,245,FMCZ,Dzaoudzi Pamandzi International Airport,YT,Dzaoudzi,YT,Mayotte,AF
+200,186,FMEE,Roland Garros Airport,RE,Sainte-Marie,RE,Réunion,AF
+201,186,FMEP,Saint-Pierre Pierrefonds Airport,RE,Saint-Pierre,RE,Réunion,AF
+202,140,FMMI,Ivato International Airport,MG,Antananarivo,MG,Madagascar,AF
+203,140,FMMT,Toamasina Ambalamanasy Airport,MG,Toamasina,MG,Madagascar,AF
+204,140,FMNM,Amborovy Airport,MG,Mahajanga,MG,Madagascar,AF
+205,140,FMNN,Nosy Be International Airport,MG,Nosy Be,MG,Madagascar,AF
+206,8,FNBJ,Dr. Antonio Agostinho Neto International Airport,AO,Luanda (Ícolo e Bengo),AO,Angola,AF
+207,8,FNLU,Quatro de Fevereiro International Airport,AO,Luanda,AO,Angola,AF
+208,74,FOOG,Port Gentil International Airport,GA,Port Gentil,GA,Gabon,AF
+209,74,FOOL,Libreville Leon M'ba International Airport,GA,Libreville,GA,Gabon,AF
+210,206,FPST,São Tomé International Airport,ST,São Tomé,ST,São Tomé and Principe,AF
+211,157,FQBR,Beira International Airport,MZ,Beira,MZ,Mozambique,AF
+212,157,FQMA,Maputo Airport,MZ,Maputo,MZ,Mozambique,AF
+213,157,FQNP,Nampula Airport,MZ,Nampula,MZ,Mozambique,AF
+214,157,FQTT,Tete Airport,MZ,Tete,MZ,Mozambique,AF
+215,193,FSIA,Seychelles International Airport,SC,Victoria,SC,Seychelles,AF
+216,212,FTTJ,N'Djamena International Airport,TD,N'Djamena,TD,Chad,AF
+217,248,FVBU,Joshua Mqabuko Nkomo International Airport,ZW,Bulawayo,ZW,Zimbabwe,AF
+218,248,FVFA,Victoria Falls International Airport,ZW,Victoria Falls,ZW,Zimbabwe,AF
+219,248,FVHA,Robert Gabriel Mugabe International Airport,ZW,Harare,ZW,Zimbabwe,AF
+220,154,FWCL,Chileka International Airport,MW,Blantyre,MW,Malawi,AF
+221,154,FWKI,Kamuzu International Airport,MW,Lumbadzi,MW,Malawi,AF
+222,130,FXMM,Moshoeshoe I International Airport,LS,Maseru(Mazenod),LS,Lesotho,AF
+223,158,FYWB,Walvis Bay International Airport,NA,Walvis Bay(Rooikop),NA,Namibia,AF
+224,158,FYWH,Hosea Kutako International Airport,NA,Windhoek,NA,Namibia,AF
+225,38,FZAA,Ndjili International Airport,CD,Kinshasa,CD,Democratic Republic of the Congo,AF
+226,38,FZIC,Bangoka International Airport,CD,Kisangani,CD,Democratic Republic of the Congo,AF
+227,38,FZNA,Goma International Airport,CD,Goma,CD,Democratic Republic of the Congo,AF
+228,38,FZQA,Lubumbashi International Airport,CD,Lubumbashi,CD,Democratic Republic of the Congo,AF
+229,143,GABS,Modibo Keita International Airport,ML,Bamako,ML,Mali,AF
+230,143,GATB,Tombouktou Airport,ML,Timbuktu,ML,Mali,AF
+231,83,GBYD,Banjul International Airport,GM,Banjul (Yundum),GM,Gambia,AF
+232,66,GCFV,Fuerteventura Airport,ES,El Matorral,ES,Spain,EU
+233,66,GCLP,Gran Canaria Airport,ES,Gran Canaria Island,ES,Spain,EU
+234,66,GCRR,César Manrique-Lanzarote Airport,ES,San Bartolomé,ES,Spain,EU
+235,66,GCTS,Tenerife Sur Airport,ES,Tenerife,ES,Spain,EU
+236,66,GCXO,Tenerife Norte-Ciudad de La Laguna Airport,ES,Tenerife,ES,Spain,EU
+237,200,GFLL,Lungi International Airport,SL,Freetown (Lungi-Town),SL,Sierra Leone,AF
+238,91,GGOV,Osvaldo Vieira International Airport,GW,Bissau,GW,Guinea-Bissau,AF
+239,129,GLRB,Roberts International Airport,LR,Monrovia,LR,Liberia,AF
+240,135,GMAD,Al Massira Airport,MA,Agadir (Temsia),MA,Morocco,AF
+241,135,GMAZ,Zagora Airport,MA,Zagora,MA,Morocco,AF
+242,135,GMFF,Fes Saïss International Airport,MA,Saïss,MA,Morocco,AF
+243,135,GMFO,Oujda Angads Airport,MA,Ahl Angad,MA,Morocco,AF
+244,135,GMMD,Beni Mellal Airport,MA,Oulad Yaich,MA,Morocco,AF
+245,135,GMME,Rabat-Salé Airport,MA,Rabat,MA,Morocco,AF
+246,64,GMMH,Dakhla Airport,EH,Dakhla,EH,Western Sahara (disputed territory),AF
+247,64,GMML,Laayoune Hassan I International Airport,EH,El Aaiún,EH,Western Sahara (disputed territory),AF
+248,135,GMMN,Mohammed V International Airport,MA,Casablanca,MA,Morocco,AF
+249,135,GMMW,Nador Al Aaroui International Airport,MA,Al Aaroui,MA,Morocco,AF
+250,135,GMMX,Marrakesh Menara Airport,MA,Marrakesh,MA,Morocco,AF
+251,135,GMMZ,Ouarzazate International Airport,MA,Ouarzazate,MA,Morocco,AF
+252,135,GMTN,Sania Ramel Airport,MA,Tétouan,MA,Morocco,AF
+253,135,GMTT,Tangier Ibn Battuta Airport,MA,Tangier,MA,Morocco,AF
+254,202,GOBD,Blaise Diagne International Airport,SN,Dakar,SN,Senegal,AF
+255,202,GOOY,Léopold Sédar Senghor International Airport,SN,Dakar,SN,Senegal,AF
+256,149,GQNO,Nouakchott–Oumtounsy International Airport,MR,Nouakchott,MR,Mauritania,AF
+257,149,GQPP,Nouadhibou International Airport,MR,Nouadhibou,MR,Mauritania,AF
+258,84,GUCY,Ahmed Sékou Touré International Airport,GN,Conakry,GN,Guinea,AF
+259,50,GVAC,Amílcar Cabral International Airport,CV,Espargos,CV,Cape Verde,AF
+260,50,GVBA,Aristides Pereira International Airport,CV,Rabil,CV,Cape Verde,AF
+261,50,GVNP,Nelson Mandela International Airport,CV,Praia,CV,Cape Verde,AF
+262,50,GVSV,Cesaria Evora International Airport,CV,São Pedro,CV,Cape Verde,AF
+263,67,HAAB,Addis Ababa Bole International Airport,ET,Addis Ababa,ET,Ethiopia,AF
+264,67,HADR,Aba Tenna Dejazmach Yilma International Airport,ET,Dire Dawa,ET,Ethiopia,AF
+265,67,HAJJ,Gerad Wilwal International Airport,ET,Jijiga,ET,Ethiopia,AF
+266,67,HALA,Hawassa International Airport,ET,Hawassa,ET,Ethiopia,AF
+267,23,HBBA,Bujumbura Melchior Ndadaye International Airport,BI,Bujumbura,BI,Burundi,AF
+268,203,HCMF,Bender Qassim International Airport,SO,Bosaso,SO,Somalia,AF
+269,203,HCMH,Egal International Airport,SO,Hargeisa,SO,Somalia,AF
+270,203,HCMM,Aden Adde International Airport,SO,Mogadishu,SO,Somalia,AF
+271,56,HDAM,Djibouti-Ambouli Airport,DJ,Djibouti City,DJ,Djibouti,AF
+272,63,HEAL,El Alamein International Airport,EG,El Alamein,EG,Egypt,AF
+273,63,HEAR,El Arish International Airport,EG,El Arish,EG,Egypt,AF
+274,63,HEAT,Asyut International Airport,EG,Asyut,EG,Egypt,AF
+275,63,HEBA,Alexandria International Airport,EG,Alexandria,EG,Egypt,AF
+276,63,HECA,Cairo International Airport,EG,Cairo,EG,Egypt,AF
+277,63,HEGN,Hurghada International Airport,EG,Hurghada,EG,Egypt,AF
+278,63,HELX,Luxor International Airport,EG,Luxor,EG,Egypt,AF
+279,63,HEMA,Marsa Alam International Airport,EG,Marsa Alam,EG,Egypt,AF
+280,63,HEMM,Mersa Matruh International Airport,EG,Marsa Matruh,EG,Egypt,AF
+281,63,HEPS,Port Said International Airport,EG,Port Said,EG,Egypt,AF
+282,63,HESG,Suhaj International Airport,EG,Suhaj,EG,Egypt,AF
+283,63,HESH,Sharm El Sheikh International Airport,EG,Sharm El Sheikh,EG,Egypt,AF
+284,63,HESN,Aswan International Airport,EG,Aswan,EG,Egypt,AF
+285,63,HESX,Sphinx International Airport,EG,Al Jiza,EG,Egypt,AF
+286,205,HJJJ,Juba International Airport,SS,Juba,SS,South Sudan,AF
+287,113,HKEL,Eldoret International Airport,KE,Eldoret,KE,Kenya,AF
+288,113,HKJK,Jomo Kenyatta International Airport,KE,Nairobi,KE,Kenya,AF
+289,113,HKKI,Kisumu International Airport,KE,Kisumu,KE,Kenya,AF
+290,113,HKMO,Moi International Airport,KE,Mombasa,KE,Kenya,AF
+291,134,HLGD,Sirt International Airport / Ghardabiya Airbase,LY,Sirt,LY,Libya,AF
+292,134,HLLB,Benina International Airport,LY,Benina,LY,Libya,AF
+293,134,HLLM,Mitiga International Airport,LY,Tripoli,LY,Libya,AF
+294,134,HLLQ,Al Abraq International Airport,LY,Al Albraq,LY,Libya,AF
+295,190,HRYR,Kigali International Airport,RW,Kigali,RW,Rwanda,AF
+296,194,HSPN,Port Sudan New International Airport,SD,Port Sudan,SD,Sudan,AF
+297,194,HSSK,Khartoum International Airport,SD,Khartoum,SD,Sudan,AF
+298,226,HTDA,Julius Nyerere International Airport,TZ,Dar es Salaam,TZ,Tanzania,AF
+299,226,HTKJ,Kilimanjaro International Airport,TZ,Arusha,TZ,Tanzania,AF
+300,226,HTMW,Mwanza International Airport,TZ,Mwanza,TZ,Tanzania,AF
+,1,,,,,AD,Andorra,EU
+,2,,,,,AE,United Arab Emirates,AS
+,3,,,,,AF,Afghanistan,AS
+,4,,,,,AG,Antigua and Barbuda,NA
+,5,,,,,AI,Anguilla,NA
+,6,,,,,AL,Albania,EU
+,7,,,,,AM,Armenia,AS
+,9,,,,,AQ,Antarctica,AN
+,10,,,,,AR,Argentina,SA
+,11,,,,,AS,American Samoa,OC
+,12,,,,,AT,Austria,EU
+,14,,,,,AW,Aruba,NA
+,15,,,,,AZ,Azerbaijan,AS
+,16,,,,,BA,Bosnia and Herzegovina,EU
+,17,,,,,BB,Barbados,NA
+,18,,,,,BD,Bangladesh,AS
+,21,,,,,BG,Bulgaria,EU
+,22,,,,,BH,Bahrain,AS
+,25,,,,,BL,Saint Barthélemy,NA
+,26,,,,,BM,Bermuda,NA
+,27,,,,,BN,Brunei,AS
+,28,,,,,BO,Bolivia,SA
+,29,,,,,BQ,Caribbean Netherlands,NA
+,30,,,,,BR,Brazil,SA
+,31,,,,,BS,Bahamas,NA
+,32,,,,,BT,Bhutan,AS
+,34,,,,,BY,Belarus,EU
+,35,,,,,BZ,Belize,NA
+,37,,,,,CC,Cocos (Keeling) Islands,AS
+,41,,,,,CH,Switzerland,EU
+,43,,,,,CK,Cook Islands,OC
+,44,,,,,CL,Chile,SA
+,46,,,,,CN,China,AS
+,47,,,,,CO,Colombia,SA
+,48,,,,,CR,Costa Rica,NA
+,49,,,,,CU,Cuba,NA
+,51,,,,,CW,Curaçao,NA
+,52,,,,,CX,Christmas Island,AS
+,53,,,,,CY,Cyprus,AS
+,54,,,,,CZ,Czech Republic,EU
+,58,,,,,DM,Dominica,NA
+,59,,,,,DO,Dominican Republic,NA
+,61,,,,,EC,Ecuador,SA
+,65,,,,,ER,Eritrea,AF
+,69,,,,,FJ,Fiji,OC
+,70,,,,,FK,Falkland Islands,SA
+,71,,,,,FM,Micronesia,OC
+,73,,,,,FR,France,EU
+,76,,,,,GD,Grenada,NA
+,77,,,,,GE,Georgia,AS
+,78,,,,,GF,French Guiana,SA
+,79,,,,,GG,Guernsey,EU
+,81,,,,,GI,Gibraltar,EU
+,85,,,,,GP,Guadeloupe,NA
+,87,,,,,GR,Greece,EU
+,88,,,,,GS,South Georgia and the South Sandwich Islands,AN
+,89,,,,,GT,Guatemala,NA
+,90,,,,,GU,Guam,OC
+,92,,,,,GY,Guyana,SA
+,93,,,,,HK,Hong Kong,AS
+,94,,,,,HM,Heard and McDonald Islands,OC
+,95,,,,,HN,Honduras,NA
+,96,,,,,HR,Croatia,EU
+,97,,,,,HT,Haiti,NA
+,98,,,,,HU,Hungary,EU
+,99,,,,,ID,Indonesia,AS
+,101,,,,,IL,Israel,AS
+,103,,,,,IN,India,AS
+,104,,,,,IO,British Indian Ocean Territory,AS
+,105,,,,,IQ,Iraq,AS
+,106,,,,,IR,Iran,AS
+,108,,,,,IT,Italy,EU
+,109,,,,,JE,Jersey,EU
+,110,,,,,JM,Jamaica,NA
+,111,,,,,JO,Jordan,AS
+,112,,,,,JP,Japan,AS
+,114,,,,,KG,Kyrgyzstan,AS
+,115,,,,,KH,Cambodia,AS
+,116,,,,,KI,Kiribati,OC
+,117,,,,,KM,Comoros,AF
+,118,,,,,KN,Saint Kitts and Nevis,NA
+,119,,,,,KP,North Korea,AS
+,120,,,,,KR,South Korea,AS
+,121,,,,,KW,Kuwait,AS
+,122,,,,,KY,Cayman Islands,NA
+,123,,,,,KZ,Kazakhstan,AS
+,124,,,,,LA,Laos,AS
+,125,,,,,LB,Lebanon,AS
+,126,,,,,LC,Saint Lucia,NA
+,127,,,,,LI,Liechtenstein,EU
+,128,,,,,LK,Sri Lanka,AS
+,136,,,,,MC,Monaco,EU
+,137,,,,,MD,Moldova,EU
+,138,,,,,ME,Montenegro,EU
+,139,,,,,MF,Saint Martin,NA
+,141,,,,,MH,Marshall Islands,OC
+,142,,,,,MK,North Macedonia,EU
+,144,,,,,MM,Myanmar,AS
+,145,,,,,MN,Mongolia,AS
+,146,,,,,MO,Macau,AS
+,147,,,,,MP,Northern Mariana Islands,OC
+,148,,,,,MQ,Martinique,NA
+,150,,,,,MS,Montserrat,NA
+,151,,,,,MT,Malta,EU
+,153,,,,,MV,Maldives,AS
+,155,,,,,MX,Mexico,NA
+,156,,,,,MY,Malaysia,AS
+,159,,,,,NC,New Caledonia,OC
+,161,,,,,NF,Norfolk Island,OC
+,163,,,,,NI,Nicaragua,NA
+,166,,,,,NP,Nepal,AS
+,167,,,,,NR,Nauru,OC
+,168,,,,,NU,Niue,OC
+,169,,,,,NZ,New Zealand,OC
+,170,,,,,OM,Oman,AS
+,171,,,,,PA,Panama,NA
+,172,,,,,PE,Peru,SA
+,173,,,,,PF,French Polynesia,OC
+,175,,,,,PH,Philippines,AS
+,176,,,,,PK,Pakistan,AS
+,178,,,,,PM,Saint Pierre and Miquelon,NA
+,179,,,,,PN,Pitcairn,OC
+,180,,,,,PR,Puerto Rico,NA
+,181,,,,,PS,Palestinian Territory,AS
+,182,,,,,PT,Portugal,EU
+,183,,,,,PW,Palau,OC
+,184,,,,,PY,Paraguay,SA
+,185,,,,,QA,Qatar,AS
+,187,,,,,RO,Romania,EU
+,188,,,,,RS,Serbia,EU
+,189,,,,,RU,Russia,EU
+,191,,,,,SA,Saudi Arabia,AS
+,196,,,,,SG,Singapore,AS
+,197,,,,,SH,"Saint Helena, Ascension and Tristan da Cunha",AF
+,198,,,,,SI,Slovenia,EU
+,199,,,,,SK,Slovakia,EU
+,201,,,,,SM,San Marino,EU
+,204,,,,,SR,Suriname,SA
+,207,,,,,SV,El Salvador,NA
+,208,,,,,SX,Sint Maarten,NA
+,209,,,,,SY,Syria,AS
+,211,,,,,TC,Turks and Caicos Islands,NA
+,213,,,,,TF,French Southern and Antarctic Lands,AF
+,215,,,,,TH,Thailand,AS
+,216,,,,,TJ,Tajikistan,AS
+,217,,,,,TK,Tokelau,OC
+,218,,,,,TL,Timor-Leste,AS
+,219,,,,,TM,Turkmenistan,AS
+,221,,,,,TO,Tonga,OC
+,222,,,,,TR,Turkey,AS
+,223,,,,,TT,Trinidad and Tobago,NA
+,224,,,,,TV,Tuvalu,OC
+,225,,,,,TW,Taiwan,AS
+,227,,,,,UA,Ukraine,EU
+,228,,,,,UG,Uganda,AF
+,229,,,,,UM,United States Minor Outlying Islands,OC
+,230,,,,,US,United States,NA
+,231,,,,,UY,Uruguay,SA
+,232,,,,,UZ,Uzbekistan,AS
+,233,,,,,VA,Vatican City,EU
+,234,,,,,VC,Saint Vincent and the Grenadines,NA
+,235,,,,,VE,Venezuela,SA
+,236,,,,,VG,British Virgin Islands,NA
+,237,,,,,VI,U.S. Virgin Islands,NA
+,238,,,,,VN,Vietnam,AS
+,239,,,,,VU,Vanuatu,OC
+,240,,,,,WF,Wallis and Futuna,OC
+,241,,,,,WS,Samoa,OC
+,243,,,,,XP,Paracel Islands (disputed),AS
+,244,,,,,YE,Yemen,AS
+,249,,,,,ZZ,Unknown or unassigned country,AF
