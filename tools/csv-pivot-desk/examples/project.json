@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source": {
+    "name": "penguins.csv",
+    "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "bytes": 15241
+  },
+  "config": {
+    "types": {
+      "species": "text",
+      "island": "text",
+      "bill_length_mm": "text",
+      "bill_depth_mm": "text",
+      "flipper_length_mm": "text",
+      "body_mass_g": "number",
+      "sex": "text",
+      "year": "text"
+    },
+    "row": "species",
+    "column": "island",
+    "value": "body_mass_g",
+    "aggregate": "mean",
+    "missing": [
+      "",
+      "NA"
+    ],
+    "filters": []
+  }
+}
