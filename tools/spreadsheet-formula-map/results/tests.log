@@ -1,0 +1,33 @@
+test_case_insensitive_sheet (test_engine.EngineTests.test_case_insensitive_sheet) ... ok
+test_limits (test_engine.EngineTests.test_limits) ... ok
+test_literal_and_cache (test_engine.EngineTests.test_literal_and_cache) ... ok
+test_missing_shared_master (test_engine.EngineTests.test_missing_shared_master) ... ok
+test_no_entity_expansion (test_engine.EngineTests.test_no_entity_expansion) ... ok
+test_quoted_mixed_ranges (test_engine.EngineTests.test_quoted_mixed_ranges) ... ok
+test_shared_and_array (test_engine.EngineTests.test_shared_and_array) ... ok
+test_unresolved (test_engine.EngineTests.test_unresolved) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.277s
+
+OK
+✔ transitive precedents and cycle (4.072489ms)
+✔ direct and reverse navigation (0.723473ms)
+✔ limit and disconnected unknown boundary are incomplete (0.696799ms)
+✔ report escapes hostile workbook and note strings (2.107315ms)
+✔ offline report preserves notes and anchors for selected blank cells (0.825736ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 180.793488
+CashFlowCompany.xlsx 4 supported/partial formulas match independent Calc manifest
+Loan.xlsx 96 supported/partial formulas match independent Calc manifest
+Valuation.xlsx 1067 supported/partial formulas match independent Calc manifest
+Loan.xlsx cc8095dafeca3ab889db2ee4ec2681272c92047cafd92a4db367776da109b2cc verified
+CashFlowCompany.xlsx 3e388334dd9fa19c9817a09dfaaf35e06e9520312bdbca4d1379e33cbf0fc4c1 verified
+LICENSE 57d499d24f7c0615000eb770d306ed5bb81b3140b7068b75c8363771b54f2388 verified
+Valuation.xlsx 6af90c70944105c8636c2ffcb2a6db64c15f36cd055e6987dc117d15cd1666da verified

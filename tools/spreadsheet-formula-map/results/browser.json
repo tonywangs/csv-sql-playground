@@ -1,0 +1,18 @@
+{
+  "browser": "Chromium via Playwright 1.55.0",
+  "checks": [
+    "real workbook file import",
+    "cross-sheet direct and transitive tracing",
+    "dependent navigation",
+    "incomplete coverage label",
+    "annotation",
+    "reload recovery",
+    "wrong-hash rejection",
+    "matching-hash reconnection",
+    "JSON export/import",
+    "offline HTML reopening with escaped note",
+    "all three real demo buttons",
+    "source bytes unchanged"
+  ],
+  "passed": true
+}

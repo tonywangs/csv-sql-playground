@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/PacktPublishing/Hands-On-Financial-Modeling-with-Microsoft-Excel-2019",
+  "revision": "b44e8387fdbbaa16ef98da5e26a075794e185815",
+  "license": "MIT; repository license retained as fixtures/LICENSE; workbook examples supporting the publisher financial modeling textbook",
+  "purpose": "Loan and company cash-flow financial modeling teaching examples, not parser fixtures. Financial numbers are illustrative, not verified business data.",
+  "files": [
+    {
+      "file": "Loan.xlsx",
+      "url": "https://raw.githubusercontent.com/PacktPublishing/Hands-On-Financial-Modeling-with-Microsoft-Excel-2019/b44e8387fdbbaa16ef98da5e26a075794e185815/Loan.xlsx",
+      "sha256": "cc8095dafeca3ab889db2ee4ec2681272c92047cafd92a4db367776da109b2cc",
+      "bytes": 12441
+    },
+    {
+      "file": "CashFlowCompany.xlsx",
+      "url": "https://raw.githubusercontent.com/PacktPublishing/Hands-On-Financial-Modeling-with-Microsoft-Excel-2019/b44e8387fdbbaa16ef98da5e26a075794e185815/CashFlowCompany.xlsx",
+      "sha256": "3e388334dd9fa19c9817a09dfaaf35e06e9520312bdbca4d1379e33cbf0fc4c1",
+      "bytes": 12180
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/PacktPublishing/Hands-On-Financial-Modeling-with-Microsoft-Excel-2019/b44e8387fdbbaa16ef98da5e26a075794e185815/LICENSE",
+      "sha256": "57d499d24f7c0615000eb770d306ed5bb81b3140b7068b75c8363771b54f2388",
+      "bytes": 1062
+    },
+    {
+      "file": "Valuation.xlsx",
+      "upstream_path": "Wazobia Global Ltd - v10 - Valuation - MODIFIED - FM BOOK NEW CHANGES.xlsx",
+      "url": "https://raw.githubusercontent.com/PacktPublishing/Hands-On-Financial-Modeling-with-Microsoft-Excel-2019/b44e8387fdbbaa16ef98da5e26a075794e185815/Wazobia%20Global%20Ltd%20-%20v10%20-%20Valuation%20-%20MODIFIED%20-%20FM%20BOOK%20NEW%20CHANGES.xlsx",
+      "sha256": "6af90c70944105c8636c2ffcb2a6db64c15f36cd055e6987dc117d15cd1666da",
+      "bytes": 87651
+    }
+  ]
+}
